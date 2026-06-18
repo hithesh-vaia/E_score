@@ -1,6 +1,18 @@
 from sentence_transformers import CrossEncoder
+import time
 
 model = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+
+model.predict(["pair","ddd"])
+
+
+start=time.time()
+
+def answer_matcher(question,expected_answer):
+    return ""
+
+    
+
 
 question = "Describe how the organisation integrates biodiversity and climate action synergies?."
 
@@ -15,11 +27,15 @@ In line with GRI reporting, the organization describes the material topic, actua
 The response includes enough context to assess coverage and effectiveness without claiming full maturity. The approach is implemented for material operations and reviewed periodically, with some remaining scope to improve supplier/site-level coverage, external assurance, automation or longer trend history.
 """
 
-score = model.predict([
-    (
-        f"Question: {question}\n Answer: {expected_answer}",
-        f"Question: {question}\n Answer: {actual_answer}"
-    )
-])
 
-print(f"Relevance score: {score[0]:.4f}")
+
+def score_generator(model,question:str,expected_answer:str,actual_answer:str):
+    start=time.time()
+    score = model.predict([
+        (
+            f"Question: {question}\n Answer: {expected_answer}",
+            f"Question: {question}\n Answer: {actual_answer}"
+        )])
+    end=time.time()
+    print(end-start)
+    return score
