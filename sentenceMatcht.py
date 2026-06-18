@@ -1,9 +1,9 @@
 from sentence_transformers import CrossEncoder
 import time
 
-model = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+#model = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 
-model.predict(["pair","ddd"])
+#model.predict(["pair","ddd"])
 
 
 start=time.time()
