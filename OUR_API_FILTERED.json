@@ -1,0 +1,937 @@
+[
+    {
+        "question_ref": "ENV_AQE_MA_Q1",
+        "period_month": null,
+        "value_text": "Not applicable for software operations.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_AQE_MA_Q2",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_AQE_METH_Q1",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_AQE_ODS_Q1",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_AQE_ODS_Q2",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_ABS_Q1",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_ABS_Q2",
+        "period_month": null,
+        "value_text": "No impacts.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_DET_Q1",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_DRV_Q6",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_DRV_Q7",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_ECO_Q2",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_ECO_Q3",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_ESV_Q2",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_ESV_Q3",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_IMP_Q1",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_IMP_Q2",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_IMP_Q3",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_IUC_Q1",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_MGT_Q1",
+        "period_month": null,
+        "value_text": "Not a material topic for a cloud-based AI software company.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_MGT_Q2",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_POL_Q1",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_POL_Q1_SQ1",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_SIG_Q1",
+        "period_month": null,
+        "value_text": "None.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_SIG_Q2",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_SIG_Q3",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_SIG_Q4",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_SIG_Q5",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_SIG_Q6",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_SIG_Q7",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_STK_Q2",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_STK_Q3",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_VCS_Q1",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_BIO_VCS_Q2",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_CC_JT_Q1",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_CC_JT_Q2",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_CC_JT_Q3",
+        "period_month": null,
+        "value_text": "Not highly material given our small physical footprint.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_CC_TPA_Q1",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_CC_TPA_Q3",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_BASE_Q1",
+        "period_month": null,
+        "value_text": "2023-04-01",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_BASE_Q1_SQ2",
+        "period_month": null,
+        "value_text": "FY 2023 was selected as the base year, marking our first full year of scaled API usage and cloud infrastructure deployment.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_CON_Q1",
+        "period_month": null,
+        "value_text": "Operational control",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_CON_Q2",
+        "period_month": null,
+        "value_text": "Scope 2 is based on leased office area electricity estimates. Scope 3 cloud emissions are based on usage metrics provided by AWS/GCP.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_INT_Q1",
+        "period_month": null,
+        "value_text": "Revenue",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_INT_Q1_SQ1",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 0.348,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_INT_Q1_SQ2",
+        "period_month": null,
+        "value_text": null,
+        "value_number": null,
+        "value_json": [
+            "Scope 2 (location-based)",
+            "Scope 3"
+        ],
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_INT_Q1_SQ4",
+        "period_month": null,
+        "value_text": null,
+        "value_number": null,
+        "value_json": [
+            "CO2"
+        ],
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_MET_Q1",
+        "period_month": null,
+        "value_text": "GHG Protocol Corporate Accounting and Reporting Standard.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_MET_Q2",
+        "period_month": null,
+        "value_text": "Cloud Provider Carbon Footprint tools and EPA eGRID factors for US regions.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_MET_Q3",
+        "period_month": null,
+        "value_text": "CEA grid emission factors for our India office; specific grid factors for cloud data centers.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_MET_Q4",
+        "period_month": null,
+        "value_text": "Boundary covers our single Bangalore office (Scope 2) and our outsourced cloud infrastructure (Scope 3 Category 1 and 11).",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_MGT_Q1",
+        "period_month": null,
+        "value_text": "ElevenLabs is committed to minimizing the carbon footprint of our AI models. Our direct emissions (Scope 1 and 2) are extremely low as we operate entirely out of a single leased office. Our primary emissions are Scope 3, specifically from cloud computing (AWS and GCP) used for training and running inference for our Text-to-Speech (TTS) models. We actively prioritize cloud regions powered by renewable energy and optimize our GPU compute utilization.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_MGT_Q2",
+        "period_month": null,
+        "value_text": "Effectiveness is tracked via cloud provider carbon dashboards and API inference efficiency metrics (compute per 1M characters). The engineering team reviews compute intensity monthly to optimize model efficiency and reduce associated energy use.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1",
+        "period_month": null,
+        "value_text": "Yes",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1_SQ1",
+        "period_month": null,
+        "value_text": "Implemented model compression and knowledge distillation, reducing the GPU memory and compute required per inference request by 30%. Migrated 40% of non-latency-sensitive batch processing workloads to cloud regions with high renewable energy mix.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1_SQ10",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1_SQ12",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1_SQ3",
+        "period_month": null,
+        "value_text": "Intensity metric",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1_SQ4",
+        "period_month": null,
+        "value_text": "Fixed baseline year",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1_SQ5",
+        "period_month": null,
+        "value_text": "FY 2023 fixed baseline year.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1_SQ6",
+        "period_month": null,
+        "value_text": null,
+        "value_number": null,
+        "value_json": [
+            "CO2"
+        ],
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1_SQ7",
+        "period_month": null,
+        "value_text": null,
+        "value_number": null,
+        "value_json": [
+            "Scope 3"
+        ],
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1_SQ8",
+        "period_month": null,
+        "value_text": "Internal engineering benchmarks for compute intensity.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_RED_Q1_SQ9",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_SCOPE_Q1",
+        "period_month": null,
+        "value_text": null,
+        "value_number": null,
+        "value_json": {
+            "entries": [
+                {
+                    "co2e": 1.85,
+                    "unit": "litre",
+                    "localId": "c19b5f5f-06bc-46b1-af52-83750fbdb479",
+                    "activity": "Diesel combustion \u2014 backup UPS generator",
+                    "quantity": 721.6
+                }
+            ],
+            "total_co2e": 1.85
+        },
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_SCOPE_Q2",
+        "period_month": null,
+        "value_text": null,
+        "value_number": null,
+        "value_json": {
+            "entries": [
+                {
+                    "co2e": 16.19,
+                    "unit": "kWh",
+                    "localId": "16c79aef-87b8-4b37-bea6-e4996a0a5f18",
+                    "activity": "Office electricity \u2014 India grid (location-based)",
+                    "quantity": 4224
+                }
+            ],
+            "total_co2e": 16.19
+        },
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_SCOPE_Q2_SQ1",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 16.2,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_SCOPE_Q3",
+        "period_month": null,
+        "value_text": null,
+        "value_number": null,
+        "value_json": {
+            "entries": [
+                {
+                    "co2e": 16.19,
+                    "unit": "kWh",
+                    "localId": "5e493c8e-a357-4a0e-a576-d75035e05cf1",
+                    "activity": "Office electricity \u2014 India grid (market-based, no RECs)",
+                    "quantity": 4224
+                }
+            ],
+            "total_co2e": 16.19
+        },
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_EMI_SCOPE_Q4",
+        "period_month": null,
+        "value_text": null,
+        "value_number": null,
+        "value_json": {
+            "entries": [
+                {
+                    "co2e": 45.76,
+                    "unit": "kWh",
+                    "localId": "c131771b-9564-4327-aff9-4a8e0effc1a2",
+                    "activity": "Cloud compute \u2014 AWS & GCP data centres (Category 1)",
+                    "quantity": 11880
+                },
+                {
+                    "co2e": 11.62,
+                    "unit": "km",
+                    "localId": "bc9a89d0-f927-4a35-9517-d0d49b1460cc",
+                    "activity": "Business travel \u2014 flights (Category 6)",
+                    "quantity": 15840
+                }
+            ],
+            "total_co2e": 57.38
+        },
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_EXT_Q1",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 0,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_INT_Q1",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 57,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_INT_Q2",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 0,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_INT_Q3",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 57,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_INT_Q4",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 0,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_INT_Q5",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 57,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_INT2_Q1",
+        "period_month": null,
+        "value_text": "Revenue",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_MET_Q1",
+        "period_month": null,
+        "value_text": "Utility bills for office; cloud provider dashboards for data centers.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_MET_Q2",
+        "period_month": null,
+        "value_text": "Cloud provider specific emission factors based on grid regions.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_MET_Q3",
+        "period_month": null,
+        "value_text": "Reported in MWh.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_MET_Q4",
+        "period_month": null,
+        "value_text": "Not applicable, no fuel combustion.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_MGT_Q1",
+        "period_month": null,
+        "value_text": "Our energy policy focuses strictly on the energy efficiency of AI model inference and GPU utilization. We target reducing energy per API call by optimizing model architectures (e.g., pruning, quantization). Office electricity use is minimal.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_MGT_Q2",
+        "period_month": null,
+        "value_text": "Tracked monthly using compute hours and cloud provider energy dashboards.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_PROD_Q1",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 0,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_REN_Q1",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 0,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_REN_Q2",
+        "period_month": null,
+        "value_text": null,
+        "value_number": 0,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_REN_Q3",
+        "period_month": null,
+        "value_text": null,
+        "value_number": null,
+        "value_json": [
+            "Solar",
+            "Wind"
+        ],
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_SC_Q1",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_ENE_SC_Q2",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_MAT_MGT_Q1",
+        "period_month": null,
+        "value_text": "Software-only company. Physical materials limited to IT hardware.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_MAT_MGT_Q2",
+        "period_month": null,
+        "value_text": "IT asset management system tracks laptop lifecycles.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_PKG_RCL_Q3",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_SEA_MA_Q1",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_SEA_MA_Q2",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_SEA_SCNI_Q3",
+        "period_month": null,
+        "value_text": "Not applicable.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAS_DCM_Q1",
+        "period_month": null,
+        "value_text": "No hazardous waste generated beyond standard lithium-ion laptop batteries.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAS_DCM_Q2",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAS_IMP_Q1",
+        "period_month": null,
+        "value_text": "Minimal. 100% of e-waste is channeled to certified IT asset disposition partners.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAS_MGT_Q1",
+        "period_month": null,
+        "value_text": "Waste management focuses entirely on responsible e-waste disposal (laptops, monitors for our 150 engineers) and maintaining a paperless software development environment. We partner with certified e-waste recyclers.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAS_MGT_Q2",
+        "period_month": null,
+        "value_text": "Annual e-waste certificates of destruction and recycling.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAS_SIG_Q1",
+        "period_month": null,
+        "value_text": "Electronic waste (laptops, testing devices) and minimal office food waste.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAS_SPI_Q1",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAT_CWS_Q2",
+        "period_month": null,
+        "value_text": "m\u00b3",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAT_MGT_Q1",
+        "period_month": null,
+        "value_text": "Water usage is strictly limited to domestic use in our leased office washrooms and small pantry. No industrial water use, no cooling towers on-site (managed by cloud providers).",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAT_MGT_Q2",
+        "period_month": null,
+        "value_text": "Building management provides apportioned water usage metrics.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAT_SHR_Q1",
+        "period_month": null,
+        "value_text": "Municipal water supply provided by the building landlord.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAT_SHR_Q2",
+        "period_month": null,
+        "value_text": "Building management procures tanker water when municipal supply is short.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAT_SOC_Q1",
+        "period_month": null,
+        "value_text": "No",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAT_SOC_Q2",
+        "period_month": null,
+        "value_text": "No impacts.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAT_STR_Q1",
+        "period_month": null,
+        "value_text": "Yes",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    },
+    {
+        "question_ref": "ENV_WAT_STR_Q2",
+        "period_month": null,
+        "value_text": "Our Bangalore office is in a water-stressed region, but our consumption is immaterial compared to local manufacturing.",
+        "value_number": null,
+        "value_json": null,
+        "unit_key": null
+    }
+]
