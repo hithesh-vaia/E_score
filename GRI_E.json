@@ -3347,7 +3347,8 @@
         "Question Contribution Formula": "question_score * 0.0210084034",
         "Mapping Rationale": "Waste/pollution volume input.",
         "Framework Tags": "GRI 305-3; SDG 3; SDG 12; SDG 13; SDG 14; SDG 15; UNGC E2 P8; IFC PS 3",
-        "Source Breadcrumb": "Environment  Emissions  Emissions By Scope"
+        "Source Breadcrumb": "Environment  Emissions  Emissions By Scope",
+        "framework": "ENV_EMI_SCOPE_Q4"
     },
     {
         "Use In Common Score": "Yes",
@@ -3502,7 +3503,8 @@
         "Question Contribution Formula": "question_score * 0.0210084034",
         "Mapping Rationale": "Waste/pollution volume input.",
         "Framework Tags": "GRI 306-3; SDG 3; SDG 6; SDG 11; SDG 12; SDG 15; UNGC E2 P8; IFC PS 3",
-        "Source Breadcrumb": "Environment  Waste  Waste Generated"
+        "Source Breadcrumb": "Environment  Waste  Waste Generated",
+        "framework": "ENV_WAS_GEN_Q1"
     },
     {
         "Use In Common Score": "Yes",
@@ -5292,7 +5294,8 @@
         "Question Contribution Formula": "question_score * 0.04",
         "Mapping Rationale": "Water monitoring/methodology input.",
         "Framework Tags": "IFC PS 3; Yes; No",
-        "Source Breadcrumb": "Environment  Pollution Prevention  Hazardous MaterialsHazardous Materials3 questions"
+        "Source Breadcrumb": "Environment  Pollution Prevention  Hazardous MaterialsHazardous Materials3 questions",
+        "framework": "ENV_IFC_PS3_Q5"
     },
     {
         "Use In Common Score": "Yes",
@@ -5447,7 +5450,8 @@
         "Question Contribution Formula": "question_score * 0.0416666667",
         "Mapping Rationale": "Species/habitat input.",
         "Framework Tags": "GRI 101-6-d; SDG 15; IFC PS 6",
-        "Source Breadcrumb": "Environment  Biodiversity  Direct Drivers of Biodiversity Loss"
+        "Source Breadcrumb": "Environment  Biodiversity  Direct Drivers of Biodiversity Loss",
+        "framework": "ENV_BIO_DRV_Q6"
     },
     {
         "Use In Common Score": "Yes",
@@ -5719,7 +5723,8 @@
         "Question Contribution Formula": "question_score * 0.0416666667",
         "Mapping Rationale": "Species/habitat input.",
         "Framework Tags": "GRI 101-6-b-i; SDG 14; SDG 15; IFC PS 6",
-        "Source Breadcrumb": "Environment  Biodiversity  Direct Drivers of Biodiversity Loss"
+        "Source Breadcrumb": "Environment  Biodiversity  Direct Drivers of Biodiversity Loss",
+        "framework": "ENV_BIO_DRV_Q3"
     },
     {
         "Use In Common Score": "Yes",
@@ -7239,7 +7244,8 @@
         "Question Contribution Formula": "question_score * 0.0392156863",
         "Mapping Rationale": "Habitat assessment input.",
         "Framework Tags": "IFC PS 5; Yes  physical displacement; Yes  economic displacement only; No",
-        "Source Breadcrumb": "Social  Land & Resettlement  Displacement AssessmentDisplacement Assessment3 questions"
+        "Source Breadcrumb": "Social  Land & Resettlement  Displacement AssessmentDisplacement Assessment3 questions",
+        "framework": "SOC_IFC_PS5_Q1"
     },
     {
         "Use In Common Score": "Yes",
@@ -7433,7 +7439,8 @@
         "Question Contribution Formula": "question_score * 0.0514705882",
         "Mapping Rationale": "Safety incident input.",
         "Framework Tags": "IFC PS 2; Yes  in all contracts; Yes  in some contracts; No",
-        "Source Breadcrumb": "Social  Labor & Working Conditions  Contractor ManagementContractor Management3 questions"
+        "Source Breadcrumb": "Social  Labor & Working Conditions  Contractor ManagementContractor Management3 questions",
+        "framework": "SOC_IFC_PS2_Q2"
     },
     {
         "Use In Common Score": "Yes",
@@ -7588,7 +7595,8 @@
         "Question Contribution Formula": "question_score * 0.1470588235",
         "Mapping Rationale": "Workforce safety exposure input.",
         "Framework Tags": null,
-        "Source Breadcrumb": "P3  Employee Wellbeing  Essential Indicatorsessential9 questions"
+        "Source Breadcrumb": "P3  Employee Wellbeing  Essential Indicatorsessential9 questions",
+        "framework": "BRSR_C_P3_EI_Q1"
     },
     {
         "Use In Common Score": "Yes",
@@ -7626,7 +7634,8 @@
         "Question Contribution Formula": "question_score * 0.0980392157",
         "Mapping Rationale": "Fatality input.",
         "Framework Tags": "GRI 403-9; SDG 3",
-        "Source Breadcrumb": "Social  Health & Safety  Occupational Safety"
+        "Source Breadcrumb": "Social  Health & Safety  Occupational Safety",
+        "framework": "SOC_HNS_Q3"
     },
     {
         "Use In Common Score": "Yes",
