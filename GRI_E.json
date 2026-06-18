@@ -425,7 +425,8 @@
         "Question Contribution Formula": "question_score * 0.2333333333",
         "Mapping Rationale": "GHG intensity exposure input.",
         "Framework Tags": "GRI 305-2; SDG 3; SDG 12; SDG 13; SDG 14; SDG 15; UNGC E2 P8; IFC PS 3",
-        "Source Breadcrumb": "Environment  Emissions  Emissions By Scope"
+        "Source Breadcrumb": "Environment  Emissions  Emissions By Scope",
+        "framework": "ENV_EMI_SCOPE_Q2"
     },
     {
         "Use In Common Score": "Yes",
@@ -502,7 +503,8 @@
         "Question Contribution Formula": "question_score * 0.0242424242",
         "Mapping Rationale": "GHG emissions exposure input.",
         "Framework Tags": "GRI 305-1; SDG 3; SDG 12; SDG 13; SDG 14; SDG 15; UNGC E2 P8; IFC PS 3",
-        "Source Breadcrumb": "Environment  Emissions  Emissions By Scope"
+        "Source Breadcrumb": "Environment  Emissions  Emissions By Scope",
+        "framework": "ENV_EMI_SCOPE_Q1"
     },
     {
         "Use In Common Score": "Yes",
@@ -2724,7 +2726,8 @@
         "Question Contribution Formula": "question_score * 0.1428571429",
         "Mapping Rationale": "Spill/pollution incident input.",
         "Framework Tags": "IFC PS 1",
-        "Source Breadcrumb": "Governance  E&S Management System  Incident TrackingIncident Tracking2 questions"
+        "Source Breadcrumb": "Governance  E&S Management System  Incident TrackingIncident Tracking2 questions",
+        "framework": "GOV_IFC_PS1_Q6"
     },
     {
         "Use In Common Score": "Yes",
