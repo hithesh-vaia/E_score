@@ -1,10 +1,9 @@
 import json
 
 
-with open("mock_response.json", "r") as file:
+with open("GRE_E_f_frame.json", "r") as file:
     data = json.load(file)
 
-data= data["responses"]
 filtered_data = []
 for a in data:
     if "ENV" in a["question_ref"]:

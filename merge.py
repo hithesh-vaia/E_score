@@ -1,24 +1,34 @@
 import json
 
-with open("GRI_E_MATCH.json") as f:
+with open("GRI_E.json") as f:
     data1 = json.load(f)
 
 with open("OUR_API_FILTERED.json") as f:
     data2 = json.load(f)
 
-# Create lookup using the key from JSON2
-lookup = {item["question_ref"]: item for item in data2}
 
-merged = []
+print(len(data2))
+
+# Create lookup using the key from JSON2
+lookup = {
+    item["question_ref"].strip().lower(): item
+    for item in data2
+}
+merged=[]
+count=0
 
 for item in data1:
-    # new_item = item.copy()
+    if "framework" in item.keys():
+        key = item["framework"].strip().lower()
 
-    # Match Question with query₹
-    if item["framework"] in lookup:
-        # print(lookup[item["framework"]])
-        merged.append({**item,**lookup[item["framework"]]})
-        # new_item.update(lookup[item["framework"]])
+        if key in lookup:
+            merged.append({**item, **lookup[key]})
+    else:
+        print(item["Question"])
+        count += 1   
+
+with open("GRI_CAL.json", "w") as file:
+    json.dump(merged, file, indent=4)
 
 
-print(json.dumps(merged, indent=4))
+print(count)
