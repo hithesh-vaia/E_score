@@ -4013,7 +4013,8 @@
         "Question Contribution Formula": "question_score * 0.0202020202",
         "Mapping Rationale": "Pollution prevention process input.",
         "Framework Tags": "IFC PS 1; Yes; No; In Development",
-        "Source Breadcrumb": "Governance  E&S Management System  Stakeholder EngagementStakeholder Engagement2 questions"
+        "Source Breadcrumb": "Governance  E&S Management System  Stakeholder EngagementStakeholder Engagement2 questions",
+        "framework": "GOV_IFC_PS1_Q10"
     },
     {
         "Use In Common Score": "Yes",
@@ -4558,7 +4559,8 @@
         "Question Contribution Formula": "question_score * 0.0933333333",
         "Mapping Rationale": "Water withdrawal/discharge input.",
         "Framework Tags": null,
-        "Source Breadcrumb": "P6  Environment  Essential Indicatorsessential8 questions"
+        "Source Breadcrumb": "P6  Environment  Essential Indicatorsessential8 questions",
+        "framework": "BRSR_C_P6_EI_Q3"
     },
     {
         "Use In Common Score": "Yes",
@@ -4596,7 +4598,8 @@
         "Question Contribution Formula": "question_score * 0.0833333333",
         "Mapping Rationale": "Water consumption/storage input.",
         "Framework Tags": "GRI 101-6-b-ii; SDG 6; SDG 15; IFC PS 6",
-        "Source Breadcrumb": "Environment  Biodiversity  Direct Drivers of Biodiversity Loss"
+        "Source Breadcrumb": "Environment  Biodiversity  Direct Drivers of Biodiversity Loss",
+        "framework": "ENV_BIO_DRV_Q4"
     },
     {
         "Use In Common Score": "Yes",

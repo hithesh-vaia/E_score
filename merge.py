@@ -27,8 +27,25 @@ for item in data1:
         print(item["Question"])
         count += 1   
 
+print(len(merged))
 with open("GRI_CAL.json", "w") as file:
     json.dump(merged, file, indent=4)
+
+used = {
+    item["framework"].strip().lower()
+    for item in data1
+    if "framework" in item
+}
+
+unused = [
+    item["question_ref"]
+    for item in data2
+    if item["question_ref"].strip().lower() not in used
+]
+
+print("Unused API entries:", len(unused))
+for q in unused:
+    print(repr(q))
 
 
 print(count)
