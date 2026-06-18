@@ -3,8 +3,10 @@ import json
 with open("GRI_E.json") as f:
     data1 = json.load(f)
 
-with open("OUR_API_FILTERED.json") as f:
+with open("mock_response.json") as f:
     data2 = json.load(f)
+    print(type(data2))
+    data2= data2["responses"]
 
 
 print(len(data2))
