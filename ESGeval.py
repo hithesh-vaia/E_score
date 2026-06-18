@@ -1,4 +1,3 @@
-### ESG Answer Evaluation class
 from winsorizedcal import calc_winsorized_score
 
 
@@ -7,6 +6,8 @@ class ESGAnswerEval():
         from sentence_transformers import CrossEncoder
         self.model=CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
         pass
+
+    
 
     def logic_score(self,question:str,answer:str):
         self.model.predict([()])
