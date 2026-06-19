@@ -1,0 +1,2391 @@
+{
+    "responses": {
+        "ECO_ACB_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_ACP_Q1": {
+            "value_text": null,
+            "value_number": 132,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_ACP_Q2": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "80093aea-f00f-4eb0-8608-b4f0c4275eaa",
+                        "cells": {
+                            "% trained": "96%",
+                            "Total trained": 128,
+                            "% communicated to": "100%",
+                            "Total communicated to": 132
+                        },
+                        "label": "Employees"
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_ACP_Q3": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_EPN_Q1": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "d5b1fbb8-1c7e-4e43-be47-c96665ac07bd",
+                        "cells": {
+                            "Notes": "SaaS subscriptions and API pay-per-use billing",
+                            "Amount": 246,
+                            "Currency": "INR million"
+                        },
+                        "label": "Revenue"
+                    },
+                    {
+                        "id": "8290d8d7-c2ef-44d0-a461-152853573fd5",
+                        "cells": {
+                            "Notes": "Cloud GPU compute costs, software licenses, office rent",
+                            "Amount": 220,
+                            "Currency": "INR million"
+                        },
+                        "label": "Operating costs"
+                    },
+                    {
+                        "id": "478c772b-b99e-4675-817d-51d200427648",
+                        "cells": {
+                            "Notes": "Engineering and product salaries",
+                            "Amount": 132,
+                            "Currency": "INR million"
+                        },
+                        "label": "Employee wages and benefits"
+                    },
+                    {
+                        "id": "59ebd88e-3f6b-43ec-b63c-9320566aa577",
+                        "cells": {
+                            "Notes": "Laptops and office networking gear",
+                            "Amount": 9,
+                            "Currency": "INR million"
+                        },
+                        "label": "Capital expenditure"
+                    },
+                    {
+                        "id": "8d3dd997-87cc-414e-91c0-beb94964b84f",
+                        "cells": {
+                            "Notes": "Not applicable yet",
+                            "Amount": 0,
+                            "Currency": "INR million"
+                        },
+                        "label": "Community investments (CSR)"
+                    },
+                    {
+                        "id": "0f12e596-102a-407e-b54e-de4b6f5e824b",
+                        "cells": {
+                            "Notes": "Pre-profit startup",
+                            "Amount": 0,
+                            "Currency": "INR million"
+                        },
+                        "label": "Income taxes paid"
+                    },
+                    {
+                        "id": "5538371f-647f-402a-8236-f9b9dfcc2da3",
+                        "cells": {
+                            "Notes": "Reinvested into R&D",
+                            "Amount": 26,
+                            "Currency": "INR million"
+                        },
+                        "label": "Economic value retained"
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_EPN_Q2": {
+            "value_text": "High revenue growth driven by viral adoption of our voice synthesis API among developers.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_EPN_Q3": {
+            "value_text": "None.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_EPN_Q4": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "94bc9eb4-5ebf-4fda-a981-3fbc35cdfc20",
+                        "cells": {
+                            "Country": "India",
+                            "Currency": "INR million",
+                            "Monetary Value": 0,
+                            "Type of Assistance": "Startup India tax exemption"
+                        },
+                        "label": "None"
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_IND_Q1": {
+            "value_text": "We democratize voice technology, enabling creators, educators, and businesses to produce high-quality audio content globally. We heavily support accessibility tools like screen readers.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_IND_Q2": {
+            "value_text": "Developing vernacular language AI models for Bharat, allowing seamless text-to-speech in multiple regional Indian languages.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_MKT_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_MKT_Q2": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_PRO_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_TAX_Q1": {
+            "value_text": "Compliant with startup tax regulations.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_TAX_Q2": {
+            "value_text": "Reviewed by external auditors.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_TAX_Q3": {
+            "value_text": "No disputes.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ECO_TAX_Q4": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "8da2f621-1b3f-42f4-8f66-09ac3e60f62d",
+                        "cells": {
+                            "Tax accrued": 0,
+                            "Jurisdiction": "India",
+                            "Tangible assets": 18,
+                            "Resident entities": "ElevenLabs India Pvt Ltd",
+                            "Primary activities": "Software development and sales",
+                            "Number of employees": 132,
+                            "Intra-group revenues": 0,
+                            "Third-party revenues": 246,
+                            "Tax paid (cash basis)": 0,
+                            "Profit / Loss before tax": -18
+                        },
+                        "label": "India"
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_AQE_MA_Q1": {
+            "value_text": "Not applicable for software operations.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_AQE_MA_Q2": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_AQE_METH_Q1": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_AQE_ODS_Q1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_AQE_ODS_Q2": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_ABS_Q1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_ABS_Q2": {
+            "value_text": "No impacts.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_DET_Q1": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_DRV_Q6": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_DRV_Q7": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_ECO_Q2": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_ECO_Q3": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_ESV_Q2": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_ESV_Q3": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_IMP_Q1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_IMP_Q2": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_IMP_Q3": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_IUC_Q1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_MGT_Q1": {
+            "value_text": "Not a material topic for a cloud-based AI software company.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_MGT_Q2": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_POL_Q1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_POL_Q1_SQ1": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_SIG_Q1": {
+            "value_text": "None.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_SIG_Q2": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_SIG_Q3": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_SIG_Q4": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_SIG_Q5": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_SIG_Q6": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_SIG_Q7": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_STK_Q2": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_STK_Q3": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_VCS_Q1": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_BIO_VCS_Q2": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_CC_JT_Q1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_CC_JT_Q2": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_CC_JT_Q3": {
+            "value_text": "Not highly material given our small physical footprint.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_CC_TPA_Q1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_CC_TPA_Q3": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_BASE_Q1": {
+            "value_text": "2023-04-01",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_BASE_Q1_SQ2": {
+            "value_text": "FY 2023 was selected as the base year, marking our first full year of scaled API usage and cloud infrastructure deployment.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_CON_Q1": {
+            "value_text": "Operational control",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_CON_Q2": {
+            "value_text": "Scope 2 is based on leased office area electricity estimates. Scope 3 cloud emissions are based on usage metrics provided by AWS/GCP.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_INT_Q1": {
+            "value_text": "Revenue",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_INT_Q1_SQ1": {
+            "value_text": null,
+            "value_number": 0.348,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_EMI_INT_Q1_SQ2": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": [
+                "Scope 2 (location-based)",
+                "Scope 3"
+            ],
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_INT_Q1_SQ4": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": [
+                "CO2"
+            ],
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_MET_Q1": {
+            "value_text": "GHG Protocol Corporate Accounting and Reporting Standard.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_MET_Q2": {
+            "value_text": "Cloud Provider Carbon Footprint tools and EPA eGRID factors for US regions.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_MET_Q3": {
+            "value_text": "CEA grid emission factors for our India office; specific grid factors for cloud data centers.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_MET_Q4": {
+            "value_text": "Boundary covers our single Bangalore office (Scope 2) and our outsourced cloud infrastructure (Scope 3 Category 1 and 11).",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_MGT_Q1": {
+            "value_text": "ElevenLabs is committed to minimizing the carbon footprint of our AI models. Our direct emissions (Scope 1 and 2) are extremely low as we operate entirely out of a single leased office. Our primary emissions are Scope 3, specifically from cloud computing (AWS and GCP) used for training and running inference for our Text-to-Speech (TTS) models. We actively prioritize cloud regions powered by renewable energy and optimize our GPU compute utilization.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_MGT_Q2": {
+            "value_text": "Effectiveness is tracked via cloud provider carbon dashboards and API inference efficiency metrics (compute per 1M characters). The engineering team reviews compute intensity monthly to optimize model efficiency and reduce associated energy use.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1": {
+            "value_text": "Yes",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1_SQ1": {
+            "value_text": "Implemented model compression and knowledge distillation, reducing the GPU memory and compute required per inference request by 30%. Migrated 40% of non-latency-sensitive batch processing workloads to cloud regions with high renewable energy mix.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1_SQ10": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1_SQ12": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1_SQ3": {
+            "value_text": "Intensity metric",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1_SQ4": {
+            "value_text": "Fixed baseline year",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1_SQ5": {
+            "value_text": "FY 2023 fixed baseline year.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1_SQ6": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": [
+                "CO2"
+            ],
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1_SQ7": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": [
+                "Scope 3"
+            ],
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1_SQ8": {
+            "value_text": "Internal engineering benchmarks for compute intensity.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_RED_Q1_SQ9": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_EMI_SCOPE_Q1": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "entries": [
+                    {
+                        "co2e": 1.85,
+                        "unit": "litre",
+                        "localId": "c19b5f5f-06bc-46b1-af52-83750fbdb479",
+                        "activity": "Diesel combustion — backup UPS generator",
+                        "quantity": 721.6
+                    }
+                ],
+                "total_co2e": 1.85
+            },
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_EMI_SCOPE_Q2": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "entries": [
+                    {
+                        "co2e": 16.19,
+                        "unit": "kWh",
+                        "localId": "16c79aef-87b8-4b37-bea6-e4996a0a5f18",
+                        "activity": "Office electricity — India grid (location-based)",
+                        "quantity": 4224
+                    }
+                ],
+                "total_co2e": 16.19
+            },
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_EMI_SCOPE_Q2_SQ1": {
+            "value_text": null,
+            "value_number": 16.2,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_EMI_SCOPE_Q3": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "entries": [
+                    {
+                        "co2e": 16.19,
+                        "unit": "kWh",
+                        "localId": "5e493c8e-a357-4a0e-a576-d75035e05cf1",
+                        "activity": "Office electricity — India grid (market-based, no RECs)",
+                        "quantity": 4224
+                    }
+                ],
+                "total_co2e": 16.19
+            },
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_EMI_SCOPE_Q4": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "entries": [
+                    {
+                        "co2e": 45.76,
+                        "unit": "kWh",
+                        "localId": "c131771b-9564-4327-aff9-4a8e0effc1a2",
+                        "activity": "Cloud compute — AWS & GCP data centres (Category 1)",
+                        "quantity": 11880
+                    },
+                    {
+                        "co2e": 11.62,
+                        "unit": "km",
+                        "localId": "bc9a89d0-f927-4a35-9517-d0d49b1460cc",
+                        "activity": "Business travel — flights (Category 6)",
+                        "quantity": 15840
+                    }
+                ],
+                "total_co2e": 57.38
+            },
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_ENE_EXT_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_ENE_INT_Q1": {
+            "value_text": null,
+            "value_number": 57,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_ENE_INT_Q2": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_ENE_INT_Q3": {
+            "value_text": null,
+            "value_number": 57,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_ENE_INT_Q4": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_ENE_INT_Q5": {
+            "value_text": null,
+            "value_number": 57,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_ENE_INT2_Q1": {
+            "value_text": "Revenue",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_ENE_MET_Q1": {
+            "value_text": "Utility bills for office; cloud provider dashboards for data centers.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_ENE_MET_Q2": {
+            "value_text": "Cloud provider specific emission factors based on grid regions.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_ENE_MET_Q3": {
+            "value_text": "Reported in MWh.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_ENE_MET_Q4": {
+            "value_text": "Not applicable, no fuel combustion.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_ENE_MGT_Q1": {
+            "value_text": "Our energy policy focuses strictly on the energy efficiency of AI model inference and GPU utilization. We target reducing energy per API call by optimizing model architectures (e.g., pruning, quantization). Office electricity use is minimal.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_ENE_MGT_Q2": {
+            "value_text": "Tracked monthly using compute hours and cloud provider energy dashboards.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_ENE_PROD_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_ENE_REN_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_ENE_REN_Q2": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-05-09T06:40:29.470913"
+        },
+        "ENV_ENE_REN_Q3": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": [
+                "Solar",
+                "Wind"
+            ],
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_ENE_SC_Q1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_ENE_SC_Q2": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_MAT_MGT_Q1": {
+            "value_text": "Software-only company. Physical materials limited to IT hardware.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_MAT_MGT_Q2": {
+            "value_text": "IT asset management system tracks laptop lifecycles.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_PKG_RCL_Q3": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_SEA_MA_Q1": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_SEA_MA_Q2": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_SEA_SCNI_Q3": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAS_DCM_Q1": {
+            "value_text": "No hazardous waste generated beyond standard lithium-ion laptop batteries.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAS_DCM_Q2": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAS_IMP_Q1": {
+            "value_text": "Minimal. 100% of e-waste is channeled to certified IT asset disposition partners.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAS_MGT_Q1": {
+            "value_text": "Waste management focuses entirely on responsible e-waste disposal (laptops, monitors for our 150 engineers) and maintaining a paperless software development environment. We partner with certified e-waste recyclers.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAS_MGT_Q2": {
+            "value_text": "Annual e-waste certificates of destruction and recycling.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAS_SIG_Q1": {
+            "value_text": "Electronic waste (laptops, testing devices) and minimal office food waste.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAS_SPI_Q1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAT_CWS_Q2": {
+            "value_text": "m³",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAT_MGT_Q1": {
+            "value_text": "Water usage is strictly limited to domestic use in our leased office washrooms and small pantry. No industrial water use, no cooling towers on-site (managed by cloud providers).",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAT_MGT_Q2": {
+            "value_text": "Building management provides apportioned water usage metrics.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAT_SHR_Q1": {
+            "value_text": "Municipal water supply provided by the building landlord.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAT_SHR_Q2": {
+            "value_text": "Building management procures tanker water when municipal supply is short.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAT_SOC_Q1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAT_SOC_Q2": {
+            "value_text": "No impacts.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAT_STR_Q1": {
+            "value_text": "Yes",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "ENV_WAT_STR_Q2": {
+            "value_text": "Our Bangalore office is in a water-stressed region, but our consumption is immaterial compared to local manufacturing.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_LST_Q1": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "7477662e-c6b8-49b3-9bf0-2f4f93e06ca1",
+                        "cells": {
+                            "Boundary": "Both",
+                            "Material Topic": "AI Ethics & Safety",
+                            "Applicable GRI Disclosures": "GRI 418"
+                        },
+                        "label": "AI Ethics & Safety"
+                    },
+                    {
+                        "id": "f2f318a9-986b-4cae-8ead-dccdd6e92bb2",
+                        "cells": {
+                            "Boundary": "Both",
+                            "Material Topic": "Customer Privacy",
+                            "Applicable GRI Disclosures": "GRI 418"
+                        },
+                        "label": "Customer Privacy"
+                    },
+                    {
+                        "id": "d0b8fdce-1480-44ae-a6a3-6bdac2df66ef",
+                        "cells": {
+                            "Boundary": "Internal",
+                            "Material Topic": "Cloud Energy Use",
+                            "Applicable GRI Disclosures": "GRI 302"
+                        },
+                        "label": "Cloud Energy Use"
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_LST_Q2": {
+            "value_text": "AI Ethics & Safety is our paramount material topic.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q1": {
+            "value_text": "Preventing malicious use of voice cloning (deepfakes, fraud).",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q2": {
+            "value_text": "Both activities and business relationships",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q2_SQ1": {
+            "value_text": "Our API provides the capability; we must govern its use.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q2_SQ2": {
+            "value_text": "Users generating content.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q3": {
+            "value_text": "Responsible AI Policy and Terms of Service.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q4": {
+            "value_text": "Deployed an AI audio classifier to detect if content was generated by our platform, aiding in deepfake attribution.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q4_SQ1": {
+            "value_text": "Strict API limits, voice verification for custom clones, and automated moderation.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q4_SQ2": {
+            "value_text": "Rapid takedown of accounts violating policies.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q4_SQ3": {
+            "value_text": "Open-sourcing our AI detection tools.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q5": {
+            "value_text": "Tracked via Trust & Safety incident metrics.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q5_SQ1": {
+            "value_text": "Weekly review by the CTO.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q5_SQ2": {
+            "value_text": "Zero tolerance for non-consensual voice cloning.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q5_SQ3": {
+            "value_text": "Successfully blocked thousands of unauthorized cloning attempts.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q5_SQ4": {
+            "value_text": "Moderation at scale requires continuously updating our own safety classifiers.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_MGT_Q6": {
+            "value_text": "Developer feedback helps us balance API friction with safety requirements.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_PRC_Q1": {
+            "value_text": "Materiality centers around AI Ethics, data privacy, and the environmental impact of cloud computing.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_PRC_Q1_SQ1": {
+            "value_text": "Identified through regulatory trends (EU AI Act) and customer security audits.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_PRC_Q1_SQ2": {
+            "value_text": "Prioritized by impact on brand trust and AI safety.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GEN_MAT_PRC_Q2": {
+            "value_text": "Developers, enterprise customers, AI safety researchers.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BRD_Q1": {
+            "value_text": null,
+            "value_number": 5,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BRD_Q2": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BRD_Q3": {
+            "value_text": "ElevenLabs is governed by a 5-member board: 2 founders, 2 Tata Capital nominees, and 1 independent director with deep AI expertise. Focus is on rapid growth and AI safety.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BRD_Q4": {
+            "value_text": "Directors nominated by major investors per the shareholders' agreement.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BRD_Q5": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BRD_Q6": {
+            "value_text": null,
+            "value_number": 1,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BRD_Q6_SQ1": {
+            "value_text": null,
+            "value_number": 5,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BRD_Q7": {
+            "value_text": null,
+            "value_number": 20,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BRD_Q7_SQ1": {
+            "value_text": null,
+            "value_number": 2.5,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BST_Q1": {
+            "value_text": "The Board has instituted an AI Governance Committee to review model safety, deepfake prevention, and responsible voice cloning policies.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BST_Q2": {
+            "value_text": "The CTO leads the AI Ethics team, ensuring daily adherence to our Responsible AI framework.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BST_Q2_SQ1": {
+            "value_text": "Yes",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BST_Q2_SQ2": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BST_Q3": {
+            "value_text": "Yes",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_BST_Q3_SQ1": {
+            "value_text": "The Board reviews all major public releases of new voice models for safety and ethical implications.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_ETH_Q1": {
+            "value_text": "Yes — internally available",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_ETH_Q2": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_ETH_Q2_SQ1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_ETH_Q2_SQ2": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_ETH_Q2_SQ3": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_ETH_Q2_SQ4": {
+            "value_text": "Fully compliant with GDPR and the Indian DPDP Act regarding the processing of voice biometric data.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_GOV_Q1": {
+            "value_text": "Standard founder conflict of interest declarations.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_GOV_Q1_SQ1": {
+            "value_text": "Yes — all types",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_GOV_Q2": {
+            "value_text": "Yes",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_GOV_Q2_SQ1": {
+            "value_text": "Escalated via the CTO to the Board.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_GOV_Q2_SQ2": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_GOV_Q2_SQ3": {
+            "value_text": "None.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_POL_Q1": {
+            "value_text": "Our core policy is the Responsible Voice Cloning manifesto — requiring explicit consent for cloning real voices and implementing audio watermarking.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_POL_Q1_SQ1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_POL_Q2": {
+            "value_text": "Enforced via strict API rate limits, KYC for enterprise customers, and automated moderation layers on our platform.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_PRM_Q1": {
+            "value_text": "Board received briefings on emerging AI regulations (EU AI Act) and their impact on our SaaS operations.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_PRM_Q2": {
+            "value_text": "Informal assessment.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_PRM_Q2_SQ1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_PRM_Q2_SQ2": {
+            "value_text": "Not applicable",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_PRM_Q2_SQ3": {
+            "value_text": "N/A",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_PRM_Q3": {
+            "value_text": "High equity compensation to align founders and early engineers with long-term enterprise value.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_PRM_Q4": {
+            "value_text": "Approved by investor board members.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_REM_Q1": {
+            "value_text": "Users can report malicious use of our synthesized voices directly via our Trust & Safety portal.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_REM_Q2": {
+            "value_text": "Trust & Safety team reviews flags within 2 hours. Accounts violating the deepfake policy are instantly banned.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_RPT_Q1": {
+            "value_text": "ElevenLabs India.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_RPT_Q2": {
+            "value_text": "FY2023. Contact: trust@elevenlabs.io",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_RPT_Q3": {
+            "value_text": "None.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_RPT_Q4": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_RPT_Q4_SQ1": {
+            "value_text": "N/A",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_RPT_Q4_SQ2": {
+            "value_text": "N/A",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_RPT_Q4_SQ3": {
+            "value_text": "N/A",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_RSK_Q1": {
+            "value_text": "Yes — transition only",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_STE_Q1": {
+            "value_text": "Active participant in open-source AI developer communities and AI safety consortiums.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_STE_Q2": {
+            "value_text": "Engage with developer community via Discord, GitHub, and API usage feedback loops.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_STE_Q3": {
+            "value_text": null,
+            "value_number": 4,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "GOV_STR_Q1": {
+            "value_text": "To become the global leader in voice AI while ensuring the technology is used safely and responsibly.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_CHL_Q1": {
+            "value_text": "Zero risk; highly specialized software engineering roles.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_CHL_Q1_SQ1": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_CHS_Q1": {
+            "value_text": null,
+            "value_number": 100,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_CHS_Q2": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_CHS_Q2_SQ1": {
+            "value_text": "Confirmed — no non-compliance identified",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_COM_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_COM_Q2": {
+            "value_text": "We provide free access to our Text-to-Speech API for educational institutions and visually impaired developers.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_DIV_Q1": {
+            "value_text": null,
+            "value_number": 30,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_DIV_Q2": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "10571267-7d2a-4bf5-8d3e-30e65f83fc37",
+                        "cells": {
+                            "Male": 4,
+                            "Female": 1,
+                            "Age Total": 5,
+                            "\u003C 30 years": 3,
+                            "\u003E 50 years": 0,
+                            "Non-Binary": 0,
+                            "Gender Total": 5,
+                            "30–50 years": 2,
+                            "Minority group": 0,
+                            "Employee Category": "Senior Management",
+                            "Vulnerable groups": 0
+                        }
+                    },
+                    {
+                        "id": "4cf972e8-0fbd-46b6-aa98-670b546735fd",
+                        "cells": {
+                            "Male": 12,
+                            "Female": 5,
+                            "Age Total": 17,
+                            "\u003C 30 years": 13,
+                            "\u003E 50 years": 0,
+                            "Non-Binary": 0,
+                            "Gender Total": 17,
+                            "30–50 years": 4,
+                            "Minority group": 0,
+                            "Employee Category": "Middle Management",
+                            "Vulnerable groups": 0
+                        }
+                    },
+                    {
+                        "id": "598dc941-12cb-4adc-b52f-f7a544a034d7",
+                        "cells": {
+                            "Male": 75,
+                            "Female": 31,
+                            "Age Total": 106,
+                            "\u003C 30 years": 88,
+                            "\u003E 50 years": 0,
+                            "Non-Binary": 0,
+                            "Gender Total": 106,
+                            "30–50 years": 18,
+                            "Minority group": 0,
+                            "Employee Category": "Professional / Technical",
+                            "Vulnerable groups": 0
+                        }
+                    },
+                    {
+                        "id": "a3d6ea8d-b2b4-47ea-8b77-c1482983dcee",
+                        "cells": {
+                            "Male": 2,
+                            "Female": 3,
+                            "Age Total": 5,
+                            "\u003C 30 years": 4,
+                            "\u003E 50 years": 0,
+                            "Non-Binary": 0,
+                            "Gender Total": 5,
+                            "30–50 years": 1,
+                            "Minority group": 0,
+                            "Employee Category": "Support Staff",
+                            "Vulnerable groups": 0
+                        }
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_DIV_Q3": {
+            "value_text": null,
+            "value_number": 0.87,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_EMP_Q1": {
+            "value_text": null,
+            "value_number": 132,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_EMP_Q2": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "01d1e35b-1958-478a-a949-27519bf240e7",
+                        "cells": {
+                            "Male": 4,
+                            "Total": 5,
+                            "Female": 1,
+                            "Not Disclosed": 0,
+                            "Employee Category": "Senior Management",
+                            "Non-Binary / Other": 0
+                        }
+                    },
+                    {
+                        "id": "27914473-8541-4586-8877-5f46a3c86931",
+                        "cells": {
+                            "Male": 12,
+                            "Total": 17,
+                            "Female": 5,
+                            "Not Disclosed": 0,
+                            "Employee Category": "Middle Management",
+                            "Non-Binary / Other": 0
+                        }
+                    },
+                    {
+                        "id": "112e9c28-0700-455f-9fa7-9561ca00f4f1",
+                        "cells": {
+                            "Male": 75,
+                            "Total": 106,
+                            "Female": 31,
+                            "Not Disclosed": 0,
+                            "Employee Category": "Professional / Technical",
+                            "Non-Binary / Other": 0
+                        }
+                    },
+                    {
+                        "id": "6d00b137-138e-47d6-89ea-849d12652ea4",
+                        "cells": {
+                            "Male": 2,
+                            "Total": 5,
+                            "Female": 3,
+                            "Not Disclosed": 0,
+                            "Employee Category": "Support Staff",
+                            "Non-Binary / Other": 0
+                        }
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_EMP_Q3": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "d3fdd22e-6f85-4100-8316-974399618a64",
+                        "cells": {
+                            "Male": 92,
+                            "Total": 132,
+                            "Female": 40,
+                            "Non-Binary / Other": 0
+                        },
+                        "label": "Permanent full-time"
+                    },
+                    {
+                        "id": "bb19dd8d-4e53-4fc4-ae88-bfda9d3723d0",
+                        "cells": {
+                            "Male": 0,
+                            "Total": 0,
+                            "Female": 0,
+                            "Non-Binary / Other": 0
+                        },
+                        "label": "Permanent part-time"
+                    },
+                    {
+                        "id": "2ad09b50-460b-402e-b2d2-e4ecce9a87bf",
+                        "cells": {
+                            "Male": 0,
+                            "Total": 0,
+                            "Female": 0,
+                            "Non-Binary / Other": 0
+                        },
+                        "label": "Temporary full-time"
+                    },
+                    {
+                        "id": "e990cd2e-cedf-42fd-aa0d-9832268dcdc8",
+                        "cells": {
+                            "Male": 0,
+                            "Total": 0,
+                            "Female": 0,
+                            "Non-Binary / Other": 0
+                        },
+                        "label": "Temporary part-time"
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_EMP_Q4": {
+            "value_text": null,
+            "value_number": 57,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_EMP_Q5": {
+            "value_text": null,
+            "value_number": 13,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_EMP_Q6": {
+            "value_text": null,
+            "value_number": 0.09,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_EMP_Q7": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "6f4eedf4-7311-468a-ac08-8b6f67f56828",
+                        "cells": {
+                            "Full-time Employees": "Yes",
+                            "Part-time Employees": "No",
+                            "Temporary Employees": "No"
+                        },
+                        "label": "Life insurance"
+                    },
+                    {
+                        "id": "1c662851-d504-46f7-b353-8a1b2a63d603",
+                        "cells": {
+                            "Full-time Employees": "Yes",
+                            "Part-time Employees": "No",
+                            "Temporary Employees": "No"
+                        },
+                        "label": "Health care"
+                    },
+                    {
+                        "id": "f610e0a1-bb75-422b-93dd-1a9b36873d6a",
+                        "cells": {
+                            "Full-time Employees": "Yes",
+                            "Part-time Employees": "No",
+                            "Temporary Employees": "No"
+                        },
+                        "label": "Disability coverage"
+                    },
+                    {
+                        "id": "7956511f-e6cc-4479-a967-47afaf7557db",
+                        "cells": {
+                            "Full-time Employees": "Yes",
+                            "Part-time Employees": "No",
+                            "Temporary Employees": "No"
+                        },
+                        "label": "Parental leave"
+                    },
+                    {
+                        "id": "89c360c6-72b3-420c-8a8b-00f1dfdf5487",
+                        "cells": {
+                            "Full-time Employees": "Yes",
+                            "Part-time Employees": "No",
+                            "Temporary Employees": "No"
+                        },
+                        "label": "Retirement provisions"
+                    },
+                    {
+                        "id": "2498514b-a8c5-4cd3-8203-76f963be9a65",
+                        "cells": {
+                            "Full-time Employees": "Yes",
+                            "Part-time Employees": "No",
+                            "Temporary Employees": "No"
+                        },
+                        "label": "Stock ownership"
+                    },
+                    {
+                        "id": "bda7ab2f-5346-4354-92d2-715cee81d308",
+                        "cells": {
+                            "Full-time Employees": "Yes",
+                            "Part-time Employees": "No",
+                            "Temporary Employees": "No"
+                        },
+                        "label": "Employee assistance (EAP)"
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_EMP_Q8": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "c9418c59-ca2e-4433-a1b6-8831c30fade8",
+                        "cells": {
+                            "Male": 92,
+                            "Total": 132,
+                            "Female": 40
+                        },
+                        "label": "Entitled to parental leave"
+                    },
+                    {
+                        "id": "627a5db5-33b4-4639-8378-4c5e7eb5c583",
+                        "cells": {
+                            "Male": 3,
+                            "Total": 5,
+                            "Female": 2
+                        },
+                        "label": "Took parental leave"
+                    },
+                    {
+                        "id": "027551e2-0c0a-4e3f-a228-d1c6ce29a5e4",
+                        "cells": {
+                            "Male": 3,
+                            "Total": 5,
+                            "Female": 2
+                        },
+                        "label": "Returned to work after leave"
+                    },
+                    {
+                        "id": "844539d3-5111-4f37-9ef6-4dbfd41e9a1d",
+                        "cells": {
+                            "Male": 3,
+                            "Total": 5,
+                            "Female": 2
+                        },
+                        "label": "Still employed 12 months after return"
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_FOA_Q1": {
+            "value_text": "Fully compliant with local laws; tech workers rarely unionize in our geography.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_FOA_Q1_SQ1": {
+            "value_text": "None.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_FRL_Q1": {
+            "value_text": "Zero risk.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_FRL_Q1_SQ1": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q10": {
+            "value_text": "Mental health stipends provided. AI startup culture can be high-pressure, so we enforce mandatory time off (no-meeting Wednesdays).",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q11": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q12": {
+            "value_text": null,
+            "value_number": 132,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q13": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "42b0b412-ef75-45ca-8e8d-14e4f62a1561",
+                        "cells": {
+                            "Fatalities": 0,
+                            "Recordable cases": 0,
+                            "Main types of ill health": "Eye strain, posture-related ergonomic issues"
+                        },
+                        "label": "Employees"
+                    },
+                    {
+                        "id": "b38e5f43-39f0-418d-aa53-06250820cef2",
+                        "cells": {
+                            "Fatalities": 0,
+                            "Recordable cases": 0,
+                            "Main types of ill health": "None"
+                        },
+                        "label": "Workers who are not employees"
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q2": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q3": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q4": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q5": {
+            "value_text": "Yes",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q5_SQ1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q5_SQ2": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q5_SQ3": {
+            "value_text": "Informal health and safety program focused entirely on office ergonomics and mental wellbeing.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q6": {
+            "value_text": "Annual ergonomic assessments for engineer workstations.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q7": {
+            "value_text": "Comprehensive health insurance and subscriptions to mental health and meditation platforms for all engineers.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q8": {
+            "value_text": "Quarterly feedback surveys regarding workplace stress and burnout.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q8_SQ1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q8_SQ2": {
+            "value_text": "Not applicable; managed by HR.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HNS_Q9": {
+            "value_text": "Ergonomics and screen-time management training during onboarding.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_HRG_Q1": {
+            "value_text": "Yes — publicly available",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_IND_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_IND_Q1_SQ1": {
+            "value_text": "Not applicable.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_LMR_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_LMR_Q1_SQ1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_MKT_Q1": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": [
+                "Safe use of the product or service"
+            ],
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_MKT_Q2": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_MKT_Q3": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_NDC_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_NDC_Q1_SQ1": {
+            "value_text": "Zero discrimination incidents. Our AI Ethics policy also ensures our voice models do not exhibit demographic bias.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_POL_Q1": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "85468b3a-7a6c-41b7-8ca9-4c5ca88a98a2",
+                        "cells": {
+                            "Type": "No political contributions",
+                            "Country": "India",
+                            "Currency": "INR",
+                            "Monetary Value": 0,
+                            "Recipient / Beneficiary": "None"
+                        }
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_PRV_Q1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_PRV_Q1_SQ1": {
+            "value_text": null,
+            "value_number": 0,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_PRV_Q1_SQ2": {
+            "value_text": "Confirmed — no substantiated complaints regarding voice biometric data.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_SEC_Q1": {
+            "value_text": null,
+            "value_number": 100,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_SEC_Q1_SQ1": {
+            "value_text": "No",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_SUP_Q1": {
+            "value_text": null,
+            "value_number": 100,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_SUP_Q2": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "df8b6f4c-d4d9-47a3-ad97-a0f0abb6fcd5",
+                        "cells": {
+                            "Total Assessed": 2,
+                            "Improvements Agreed (%)": "0",
+                            "Relationships Terminated": 0,
+                            "Supplier Category / Region": "Cloud Providers (AWS/GCP)",
+                            "With Significant Negative Impacts": 0
+                        }
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_TRN_Q1": {
+            "value_text": null,
+            "value_number": null,
+            "value_json": {
+                "rows": [
+                    {
+                        "id": "5ca6d049-1a54-41e4-9115-e44c5fc3d976",
+                        "cells": {
+                            "Emp Male": 4,
+                            "Hrs Male": 35,
+                            "Emp Total": 5,
+                            "Hrs Total": 44,
+                            "Emp Female": 1,
+                            "Emp Others": 0,
+                            "Hrs Female": 9,
+                            "Hrs Others": 0,
+                            "Employee Category": "Senior Management"
+                        }
+                    },
+                    {
+                        "id": "9735a700-8115-4b1a-b035-c7a98a5e8ae5",
+                        "cells": {
+                            "Emp Male": 12,
+                            "Hrs Male": 246,
+                            "Emp Total": 17,
+                            "Hrs Total": 352,
+                            "Emp Female": 5,
+                            "Emp Others": 0,
+                            "Hrs Female": 106,
+                            "Hrs Others": 0,
+                            "Employee Category": "Middle Management"
+                        }
+                    },
+                    {
+                        "id": "b249d13d-baac-4475-8ab6-b2d389b0e08f",
+                        "cells": {
+                            "Emp Male": 75,
+                            "Hrs Male": 2992,
+                            "Emp Total": 106,
+                            "Hrs Total": 4224,
+                            "Emp Female": 31,
+                            "Emp Others": 0,
+                            "Hrs Female": 1232,
+                            "Hrs Others": 0,
+                            "Employee Category": "Professional / Technical"
+                        }
+                    },
+                    {
+                        "id": "16371041-ffd9-4069-bba7-7562f37eb6c7",
+                        "cells": {
+                            "Emp Male": 2,
+                            "Hrs Male": 35,
+                            "Emp Total": 5,
+                            "Hrs Total": 88,
+                            "Emp Female": 3,
+                            "Emp Others": 0,
+                            "Hrs Female": 53,
+                            "Hrs Others": 0,
+                            "Employee Category": "Support Staff"
+                        }
+                    }
+                ]
+            },
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_TRN_Q2": {
+            "value_text": "Heavy investment in ML researcher training, cloud architecture certifications (AWS/GCP), and secure coding practices.",
+            "value_number": null,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        },
+        "SOC_TRN_Q3": {
+            "value_text": null,
+            "value_number": 128,
+            "value_json": null,
+            "unit_key": null,
+            "answered_at": "2026-04-29T05:48:16.493328"
+        }
+    }
+}
