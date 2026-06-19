@@ -28,12 +28,19 @@ k=set()
 key=[]
 
 now=time.time()
+numerator=0
+denominator=0
 for a,b in api_data.items():
     if  scoring.get(a):
         cal_set=scoring[a]
         if cal_set.get("answer_type") in valid_metrics:
             score = Evaluator.calculate(cal_set, b)
-            #print(f"{a}: Score = {score}")
+            print(f"{a}: Score = {score}")
+            if score!=None:
+                numerator+=score
+                denominator+=1
+
+print(numerator/denominator)
 
 
 
