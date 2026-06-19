@@ -37,5 +37,5 @@ def score_generator(model,question:str,expected_answer:str,actual_answer:str):
             f"Question: {question}\n Answer: {actual_answer}"
         )])
     end=time.time()
-    print(end-start)
+    print(score)
     return score

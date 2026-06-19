@@ -1,0 +1,797 @@
+[
+    {
+        "framework": "ENV_EMI_MGT_Q1",
+        "question": "What are your policies and commitments for managing GHG emissions and climate-related impacts?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_EMI_MGT_Q2",
+        "question": "What processes do you use to track the effectiveness of your emissions management actions?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_EMI_SCOPE_Q1",
+        "question": "Scope 1 \u2014 Direct GHG emissions",
+        "answer_type": "emissions"
+    },
+    {
+        "framework": "ENV_EMI_SCOPE_Q2",
+        "question": "Scope 2 \u2014 Location-based electricity & energy emissions",
+        "answer_type": "emissions"
+    },
+    {
+        "framework": "ENV_EMI_SCOPE_Q3",
+        "question": "Scope 2 \u2014 Market-based electricity & energy emissions",
+        "answer_type": "emissions"
+    },
+    {
+        "framework": "ENV_EMI_SCOPE_Q4",
+        "question": "Scope 3 \u2014 Indirect upstream & downstream emissions",
+        "answer_type": "emissions"
+    },
+    {
+        "framework": "ENV_EMI_BASE_Q1_SQ1",
+        "question": "What were the total GHG emissions in the base year (tCO2e)?",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_EMI_BASE_Q1_SQ2",
+        "question": "Why was this base year selected?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_EMI_CON_Q2",
+        "question": "Describe the key assumptions used in calculating GHG emissions.",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_EMI_MET_Q1",
+        "question": "Which standards or protocols does the organisation use for GHG emissions calculation?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_EMI_MET_Q2",
+        "question": "What methodologies and calculation tools are used?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_EMI_MET_Q3",
+        "question": "What are the sources of the emission conversion factors used?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_EMI_MET_Q4",
+        "question": "What assumptions were applied in the GHG emissions calculation?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_EMI_INT_Q1_SQ1",
+        "question": "GHG emissions intensity ratio (tCO2e per metric unit)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_EMI_INT_Q1_SQ3",
+        "question": "Quantity of the chosen metric (denominator value)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_EMI_RED_Q1_SQ1",
+        "question": "Describe the GHG reduction initiative(s) undertaken.",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_EMI_RED_Q1_SQ2",
+        "question": "Total GHG emissions reduction achieved (tCO2e)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_EMI_RED_Q1_SQ5",
+        "question": "Rationale for choosing this base year or baseline",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_EMI_RED_Q1_SQ8",
+        "question": "Standards, methodologies, and assumptions used to calculate the reduction",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_EMI_RED_Q1_SQ10",
+        "question": "Describe the type of offsets used (e.g. nature-based solutions, renewable energy credits, carbon credits)",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_EMI_RED_Q1_SQ11",
+        "question": "Total amount of offsets used (tCO\u2082e)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_EMI_RED_Q1_SQ12",
+        "question": "Certification scheme or criteria the offsets are part of (e.g. Gold Standard, VCS/Verra, CDM, Plan Vivo)",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_ENE_MGT_Q1",
+        "question": "What are your policies and commitments for managing energy consumption and energy-related impacts?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_ENE_MGT_Q2",
+        "question": "What processes do you use to track the effectiveness of your energy management actions?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_ENE_INT_Q1",
+        "question": "Total energy consumption inside the organisation (GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_INT_Q2",
+        "question": "Direct purchased electricity, heating, cooling, and steam (GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_INT_Q3",
+        "question": "Total fuel consumed (GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_INT_Q4",
+        "question": "Self-generated energy that was not consumed or sold (GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_INT_Q5",
+        "question": "Energy sold (GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_EXT_Q1",
+        "question": "Total energy consumption outside the organisation (GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_INT2_Q1_SQ1",
+        "question": "Energy intensity ratio (GJ per metric unit)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_INT2_Q1_SQ3",
+        "question": "Quantity of the chosen metric (denominator value)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_RED_Q1",
+        "question": "Total reduction in energy consumption achieved (GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_RED_Q1_SQ2",
+        "question": "Basis for calculating the reduction (e.g. baseline year, methodology used)",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_RED_Q1_SQ4",
+        "question": "Rationale for choosing this base year or baseline",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_RED_Q1_SQ6",
+        "question": "If estimated or modelled, describe the method used",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_RED_Q1_SQ7",
+        "question": "Standards, methodologies, and assumptions used for the reduction calculation",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_PROD_Q1",
+        "question": "Reductions in energy requirements of products and services sold (GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_PROD_Q1_SQ1",
+        "question": "How was this reduction calculated? What standards or approaches were used?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_PROD_Q1_SQ2",
+        "question": "Base year or baseline used for the product energy reduction",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_PROD_Q1_SQ3",
+        "question": "Rationale for choosing this base year or baseline",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_MET_Q1",
+        "question": "What standards and methodologies does the organisation use for energy data collection and calculation?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_MET_Q2",
+        "question": "What are the sources of conversion factors used for energy calculations?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_MET_Q3",
+        "question": "What assumptions were applied in the energy data calculation?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_ENE_MET_Q4",
+        "question": "What calculation tools are used for energy data compilation?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_REN_Q1",
+        "question": "Total renewable energy consumption (GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_REN_Q2",
+        "question": "Total non-renewable energy consumption (GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_ENE_SC_Q1_SQ1",
+        "question": "Which Scope 3 categories contribute most to value chain energy consumption?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_SC_Q1_SQ2",
+        "question": "Which Scope 3 categories contribute most to value chain energy consumption?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_ENE_SC_Q2_SQ1",
+        "question": "Describe the supplier energy efficiency programme or requirements.",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_WAS_MGT_Q1",
+        "question": "What are your policies and commitments for managing waste and its environmental impacts?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAS_MGT_Q2",
+        "question": "What processes do you use to track the effectiveness of your waste management actions?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAS_SIG_Q1",
+        "question": "What are the significant waste-related impacts from your operations?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAS_IMP_Q1",
+        "question": "How does the organisation manage significant waste-related impacts?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAS_IMP_Q1_SQ2",
+        "question": "Describe the processes used to verify that third parties manage waste in line with contractual or legislative obligations",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_WAS_IMP_Q1_SQ3",
+        "question": "Describe the processes used to verify partial third-party waste management compliance",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_WAS_GEN_Q1",
+        "question": "Total waste generated (metric tonnes)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAS_GEN_Q2",
+        "question": "Total hazardous waste generated (metric tonnes)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAS_GEN_Q3",
+        "question": "Total non-hazardous waste generated (metric tonnes)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAS_DIV_Q1",
+        "question": "Total waste diverted from disposal (metric tonnes)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAS_DIV_Q3",
+        "question": "Total hazardous waste diverted from disposal (metric tonnes)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAS_DIV_Q4",
+        "question": "Total non-hazardous waste diverted from disposal (metric tonnes)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAS_DIS_Q1",
+        "question": "Total waste directed to disposal (metric tonnes)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAS_DIS_Q3",
+        "question": "Total hazardous waste directed to disposal (metric tonnes)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAS_DIS_Q4",
+        "question": "Total non-hazardous waste directed to disposal (metric tonnes)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAS_SPI_Q1_SQ1",
+        "question": "Total number of significant spills reported",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAS_DCM_Q1",
+        "question": "Describe the methodology used to collect and compile waste data.",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_MAT_MGT_Q1",
+        "question": "What are your policies and commitments for managing material use and related environmental impacts?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_MAT_MGT_Q2",
+        "question": "What processes do you use to track the effectiveness of your materials management actions?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_MAT_WV_Q1",
+        "question": "Total non-renewable materials used in production of goods or services",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_MAT_WV_Q2",
+        "question": "Total renewable materials used in production of goods or services",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_MAT_REC_Q1",
+        "question": "Total recycled input materials used (metric tonnes or m\u00b3)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_MAT_REC_Q2",
+        "question": "Percentage of recycled input materials out of total materials used (%)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_PKG_RCL_Q1",
+        "question": "Total products and packaging materials reclaimed at end of use (metric tonnes or m\u00b3)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_PKG_RCL_Q2",
+        "question": "Percentage of products and packaging reclaimed out of total sold (%)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_PKG_RCL_Q3",
+        "question": "What data collection method is used to measure reclaimed products and packaging?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_WAT_MGT_Q1",
+        "question": "What are your policies and commitments for managing water use and water-related impacts?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAT_MGT_Q2",
+        "question": "What processes do you use to track the effectiveness of your water management actions?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAT_SHR_Q1",
+        "question": "How does the organisation interact with water as a shared resource?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAT_SHR_Q1_SQ1",
+        "question": "Describe how and where water is withdrawn, consumed, and discharged across operations",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAT_SHR_Q1_SQ2",
+        "question": "Describe any water-related impacts the organisation has caused, contributed to, or is linked to",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAT_SHR_Q1_SQ3",
+        "question": "Describe the approach used to identify water-related impacts",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAT_SHR_Q1_SQ4",
+        "question": "What water-related goals and targets has the organisation set?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAT_SHR_Q2",
+        "question": "How does the organisation manage water discharge-related impacts?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAT_SHR_Q2_SQ1",
+        "question": "What minimum standards are set for the quality of effluent discharge?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_WAT_SHR_Q2_SQ2",
+        "question": "How were the minimum discharge standards determined?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_WAT_SHR_Q2_SQ3",
+        "question": "Are there any internally developed water quality standards or guidelines applied?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_WAT_SHR_Q2_SQ4",
+        "question": "Describe the profile of the receiving waterbody for significant discharge locations",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAT_WD_Q1",
+        "question": "Total water withdrawal from all sources (megalitres)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAT_WD_Q2",
+        "question": "Total water discharge to all areas (megalitres)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAT_WD_Q3",
+        "question": "Third-party water sent for use by other organisations (megalitres)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAT_STR_Q1_SQ1",
+        "question": "Total water withdrawal from water-stressed areas (megalitres)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAT_STR_Q1_SQ2",
+        "question": "Total water discharge to water-stressed areas (megalitres)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAT_STR_Q1_SQ3",
+        "question": "Total third-party water withdrawn from water-stressed areas (megalitres)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAT_STR_Q2",
+        "question": "Which tool or methodology was used to identify water-stressed areas?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_WAT_SOC_Q2",
+        "question": "What standards and methodologies are used for water quality monitoring and reporting?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_WAT_CWS_Q1",
+        "question": "Change in water storage during the reporting period (megalitres)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAT_CWS_Q2",
+        "question": "What standards and methodologies are used to measure change in water storage?",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_WAT_CON_Q1",
+        "question": "Total water consumption from all areas (megalitres)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_WAT_CON_Q2",
+        "question": "Total water consumption from areas with water stress (megalitres)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_BIO_MGT_Q1",
+        "question": "What are your policies and commitments for managing biodiversity impacts?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_MGT_Q2",
+        "question": "What processes do you use to track the effectiveness of your biodiversity management actions?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_POL_Q1_SQ1",
+        "question": "What is the scope of the biodiversity policy (which operations, geographies, or value chain tiers does it cover)?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_POL_Q1_SQ2",
+        "question": "What is the scope of the biodiversity policy (which operations, geographies, or value chain tiers does it cover)?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_POL_Q2_SQ2",
+        "question": "Describe how the biodiversity goals and targets are informed by scientific consensus",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_BIO_POL_Q2_SQ4",
+        "question": "What indicators are used to track progress against biodiversity targets?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_IMP_Q2",
+        "question": "What restoration and rehabilitation actions has the organisation taken?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_IMP_Q2_SQ1",
+        "question": "Total area under active restoration or rehabilitation (hectares)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_BIO_IMP_Q2_SQ5",
+        "question": "Standards, methodologies, and assumptions used for restoration reporting",
+        "answer_type": "small_text"
+    },
+    {
+        "framework": "ENV_BIO_IMP_Q3",
+        "question": "What actions has the organisation taken to offset residual negative biodiversity impacts?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_STK_Q2",
+        "question": "Describe how the organisation integrates biodiversity and climate action synergies.",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_STK_Q3",
+        "question": "How are impacts on indigenous peoples and local communities from biodiversity-related activities managed?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_ABS_Q2",
+        "question": "What voluntary actions has the organisation taken to advance access and benefit-sharing beyond legal requirements?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_VCS_Q1",
+        "question": "How does the organisation impact biodiversity across its value chain and operational sites?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_VCS_Q2_SQ1",
+        "question": "Total area of land owned, leased, or managed in or adjacent to protected areas (hectares)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_BIO_IUC_Q1_SQ2",
+        "question": "Total number of national conservation list species in areas affected by operations",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_BIO_SIG_Q1",
+        "question": "Describe the nature of significant direct and indirect impacts on biodiversity related to: construction or use of manufacturing plants, mines, and transport infrastructure",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_SIG_Q2",
+        "question": "Describe the nature of significant direct and indirect impacts on biodiversity related to: pollution (air, water, soil)",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_SIG_Q3",
+        "question": "Describe the nature of significant direct and indirect impacts on biodiversity related to: introduction of invasive species, pests, and pathogens",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_SIG_Q4",
+        "question": "Describe the nature of significant direct and indirect impacts on biodiversity related to: reduction of species",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_SIG_Q5",
+        "question": "Describe the nature of significant direct and indirect impacts on biodiversity related to: habitat conversion",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_SIG_Q6",
+        "question": "Describe the nature of significant direct and indirect impacts on biodiversity related to: changes in ecological processes outside the natural range of variation",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_SIG_Q7",
+        "question": "Describe significant positive and negative impacts with reference to: (a) species affected, (b) extent of areas impacted, (c) duration of impacts, (d) reversibility or irreversibility of the impacts",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_DET_Q1",
+        "question": "Explain how the organisation has determined which operational sites and which products and services in the supply chain have the most significant actual and potential impacts on biodiversity",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_DRV_Q6",
+        "question": "Invasive alien species \u2014 Describe how invasive species are or may be introduced through the organisation's activities or supply chain",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_DRV_Q7",
+        "question": "Provide contextual information: standards, methodologies, and assumptions used to compile biodiversity driver data",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_ECO_Q2",
+        "question": "Describe the ecosystem condition in the base year and compare it to the current reporting period \u2014 note changes and whether condition has improved, declined, or remained stable",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_ECO_Q3",
+        "question": "Provide contextual information: standards, methodologies, and assumptions used to assess ecosystem condition",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_ESV_Q2",
+        "question": "For each site: list the beneficiaries (people, communities, groups) affected or potentially affected by changes in those ecosystem services",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_BIO_ESV_Q3",
+        "question": "Explain how the ecosystem services and beneficiaries listed are or could be affected by the organisation's activities",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_SEA_MA_Q1",
+        "question": "What policies and commitments does the organisation have for managing environmental impacts in its supply chain?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_SEA_MA_Q2",
+        "question": "What processes does the organisation use to track the effectiveness of its supplier environmental management approach?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_SEA_NSS_Q1",
+        "question": "Number of new suppliers screened using environmental criteria",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_SEA_NSS_Q2",
+        "question": "Percentage of new suppliers screened using environmental criteria",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_SEA_SCNI_Q1",
+        "question": "Number of suppliers assessed for environmental impacts",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_SEA_SCNI_Q2",
+        "question": "Number of suppliers identified as having significant negative environmental impacts",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_SEA_SCNI_Q3",
+        "question": "Describe the significant negative environmental impacts identified in the supply chain",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_SEA_SCNI_Q4",
+        "question": "Number of suppliers where negative environmental impacts were addressed through agreements or action plans",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_SEA_SCNI_Q5",
+        "question": "Number of supplier relationships terminated due to environmental impacts",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_SEA_SCNI_Q5_SQ1",
+        "question": "Reason for termination",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_AQE_MA_Q1",
+        "question": "What policies and commitments does the organisation have for managing air quality and non-GHG air emissions?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_AQE_MA_Q2",
+        "question": "What processes does the organisation use to track the effectiveness of its air quality management approach?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_AQE_NOX_Q1",
+        "question": "Total NOx emissions (kg)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_AQE_NOX_Q2",
+        "question": "Total SOx emissions (kg)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_AQE_NOX_Q3",
+        "question": "Persistent organic pollutants (POPs) emissions (kg)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_AQE_NOX_Q4",
+        "question": "Volatile organic compounds (VOCs) emissions (kg)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_AQE_NOX_Q5",
+        "question": "Hazardous air pollutants (HAPs) emissions (kg)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_AQE_NOX_Q6",
+        "question": "Particulate matter (PM) emissions (kg)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_AQE_ODSE_Q1",
+        "question": "Total ODS emissions (metric tonnes CFC-11 equivalent)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "ENV_AQE_METH_Q1",
+        "question": "What standards and methodologies were used for air emission calculations?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_CC_TPA_Q3",
+        "question": "What adaptation actions has the organisation planned or taken in response to identified climate risks?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "ENV_CC_JT_Q3",
+        "question": "What grievance and support mechanisms exist for stakeholders affected by the organisation's transition activities?",
+        "answer_type": "text"
+    },
+    {
+        "framework": "UNGC_E3_1_1_001",
+        "question": "For environmental topics where the company sets time-bound goals/targets, what targets have been set? (Optional)",
+        "answer_type": "text"
+    },
+    {
+        "framework": "UNGC_E5_001",
+        "question": "What are the company's total Scope 1 GHG emissions (direct emissions from owned or controlled sources) during the reporting period?",
+        "answer_type": "number"
+    },
+    {
+        "framework": "UNGC_E7_001",
+        "question": "What are the company's total Scope 3 GHG emissions (all other indirect emissions in the value chain) during the reporting period?",
+        "answer_type": "number"
+    },
+    {
+        "framework": "UNGC_E8_SQ_001",
+        "question": "If validated targets exist, provide: target year, baseline year, scope covered, and validation body",
+        "answer_type": "text"
+    },
+    {
+        "framework": "UNGC_E10_SQ_001",
+        "question": "Renewable energy consumption (MWh or GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "UNGC_E10_SQ_002",
+        "question": "Non-renewable energy consumption (MWh or GJ)",
+        "answer_type": "number"
+    },
+    {
+        "framework": "UNGC_E17_001",
+        "question": "Briefly describe additional relevant practical actions taken within the reporting period and/or plans regarding environmental topics, including goals set and challenges faced. (Optional)",
+        "answer_type": "text"
+    }
+]
