@@ -1,8 +1,7 @@
+from huggingface_hub.inference._generated.types import automatic_speech_recognition
 import string
-from winsorizedcal import calc_winsorized_score
 from  sentenceMatcht import score_generator 
-import json
-
+import math
 
 class ESGAnswerEval():
     def __init__(self):
@@ -13,6 +12,17 @@ class ESGAnswerEval():
                      "small_text" :"expected_answer",
                      "number" : "range",
                      "emissions": "range"}
+
+    def cross_encoder_score(self,raw_score:float):
+        if raw_score>0 and raw_score< 10:
+            pass
+        else:
+            if raw_score<0:
+                return 0
+            else:
+                return 10
+    
+        return raw_score                     
 
     
  
@@ -47,7 +57,7 @@ class ESGAnswerEval():
         score = 10 - (9 * ratio)
         return max(1, min(10, round(score)))
 
-    def calculate(self, cal_set: dict, actual_data: dict) -> int:
+    def calculate(self, cal_set: dict, actual_data: dict) -> float|None:
         ans_type = cal_set.get("answer_type", "")
         question = cal_set.get("question", "")
         
@@ -55,29 +65,27 @@ class ESGAnswerEval():
             expected = cal_set.get("expected_answer", "")
             actual = actual_data.get("value_text", "")
             if not actual or str(actual).strip() == "Not applicable.":
-                return 1 # Lowest score for missing or N/A answers
+                return None # Lowest score for missing or N/A answers
                 
             # Assumes logic_score returns a 0.0 to 1.0 similarity metric
             raw_score = self.logic_score(question, actual, expected)
             try:
                 val = raw_score.item()
             except AttributeError:
-                val = raw_score[0] if isinstance(raw_score, (list, tuple)) else raw_score
-            return max(1, min(10, round(float(val) * 10)))
+                val = float(raw_score[0]) if isinstance(raw_score, (list, tuple)) else raw_score
+            return self.cross_encoder_score(val)
             
         elif ans_type in ["number", "emissions"]:
             expected_range = cal_set.get("range", "0-1000000")
             actual = actual_data.get("value_number")
             
-            return self.quantitative_score(expected_range, actual)
+            if actual is None:
+                return 1 # Lowest score if no number is provided
+            return self.quantitative_score(expected_range, float(actual))
             
         return 1
 
 
-
-test=ESGAnswerEval()
-
-test.index_print(0)
 
 
             
