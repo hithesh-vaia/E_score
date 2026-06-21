@@ -1,0 +1,1552 @@
+{
+    "SOC_EMP_Q1": {
+        "question_id": "8ecbea63-e13e-40de-965c-82de773e2450",
+        "framework": "SOC_EMP_Q1",
+        "framework_codes": [
+            "GRI",
+            "UNGC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-7",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Employment",
+        "topic": "Workforce Composition",
+        "question": "Total number of employees",
+        "guidance": "Report total headcount at end of reporting period. Break down by full-time and part-time.",
+        "answer_type": "number",
+        "mandatory": true,
+        "range": "0-1000000"
+    },
+    "SOC_EMP_Q2": {
+        "question_id": "78ceadfc-2083-41b1-a745-930dc8cb271e",
+        "framework": "SOC_EMP_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-7",
+            "SDG 5",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Employment",
+        "topic": "Workforce Composition",
+        "question": "Total number of employees by gender",
+        "guidance": "Report headcount broken down by gender (Male, Female, Non-binary/Other, Not disclosed).",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "Employee Category",
+                "type": "text"
+            },
+            {
+                "header": "Male",
+                "type": "number"
+            },
+            {
+                "header": "Female",
+                "type": "number"
+            },
+            {
+                "header": "Non-Binary / Other",
+                "type": "number"
+            },
+            {
+                "header": "Not Disclosed",
+                "type": "number"
+            },
+            {
+                "header": "Total",
+                "type": "total",
+                "sum_of": [
+                    "Male",
+                    "Female",
+                    "Non-Binary / Other",
+                    "Not Disclosed"
+                ]
+            }
+        ],
+        "mandatory": false
+    },
+    "SOC_EMP_Q3": {
+        "question_id": "462bb039-81be-49d6-a848-358e4b07492d",
+        "framework": "SOC_EMP_Q3",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-7",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Employment",
+        "topic": "Workforce Composition",
+        "question": "Employee breakdown by employment type",
+        "guidance": "Permanent vs temporary, full-time vs part-time.",
+        "answer_type": "table_general",
+        "row_labels": [
+            "Permanent full-time",
+            "Permanent part-time",
+            "Temporary full-time",
+            "Temporary part-time"
+        ],
+        "columns": [
+            {
+                "header": "Male",
+                "type": "number"
+            },
+            {
+                "header": "Female",
+                "type": "number"
+            },
+            {
+                "header": "Non-Binary / Other",
+                "type": "number"
+            },
+            {
+                "header": "Total",
+                "type": "total",
+                "sum_of": [
+                    "Male",
+                    "Female",
+                    "Non-Binary / Other"
+                ]
+            }
+        ],
+        "mandatory": false
+    },
+    "SOC_EMP_Q4": {
+        "question_id": "e7db2acf-8d29-4871-a7a7-cecfce87c380",
+        "framework": "SOC_EMP_Q4",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 401-1a",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Employment",
+        "topic": "Workforce Movement",
+        "question": "Total number of new employee hires during the reporting period",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_EMP_Q5": {
+        "question_id": "464e5108-9075-445b-825c-fb45d4f28818",
+        "framework": "SOC_EMP_Q5",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 401-1b",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Employment",
+        "topic": "Workforce Movement",
+        "question": "Total number of employee departures (turnover) during the reporting period",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_EMP_Q6": {
+        "question_id": "b5287a3d-50e0-49eb-8edb-44b72e912e1a",
+        "framework": "SOC_EMP_Q6",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 405-2",
+            "SDG 5",
+            "SDG 8",
+            "SDG 10"
+        ],
+        "category": "Social",
+        "subcategory": "Employment",
+        "topic": "Pay Equity",
+        "question": "Ratio of basic salary of women to men",
+        "guidance": "Report by employee category and significant locations of operation.",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_EMP_Q7": {
+        "question_id": "f3a2d8c1-4e56-7b89-0c12-3d45e6f7a8b9",
+        "framework": "SOC_EMP_Q7",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 401-2a",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Employment",
+        "topic": "Employee Benefits",
+        "question": "Benefits provided to full-time employees that are not provided to temporary or part-time employees",
+        "guidance": "For each significant location of operation, list which of the following benefits are standard for full-time employees: life insurance, health care, disability, parental leave, retirement provisions, stock ownership, others.",
+        "answer_type": "table_general",
+        "row_labels": [
+            "Life insurance",
+            "Health care",
+            "Disability and invalidity coverage",
+            "Parental leave",
+            "Retirement provisions",
+            "Stock ownership"
+        ],
+        "columns": [
+            {
+                "header": "Full-time Employees",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No",
+                    "Partial"
+                ]
+            },
+            {
+                "header": "Part-time Employees",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No",
+                    "Partial"
+                ]
+            },
+            {
+                "header": "Temporary Employees",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No",
+                    "Partial"
+                ]
+            }
+        ],
+        "mandatory": false
+    },
+    "SOC_EMP_Q8": {
+        "question_id": "a1b2c3d4-e5f6-7890-ab12-cd34ef56789a",
+        "framework": "SOC_EMP_Q8",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 401-3",
+            "SDG 5",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Employment",
+        "topic": "Parental Leave",
+        "question": "Parental leave \u2014 employee entitlement, uptake, and retention",
+        "guidance": "Report by gender: total employees entitled to parental leave; total who took parental leave; total who returned to work after parental leave; total still employed 12 months after return; return-to-work rate; retention rate.",
+        "answer_type": "table_general",
+        "row_labels": [
+            "Entitled to parental leave",
+            "Took parental leave",
+            "Returned to work after leave",
+            "Still employed 12 months after return"
+        ],
+        "columns": [
+            {
+                "header": "Male",
+                "type": "number"
+            },
+            {
+                "header": "Female",
+                "type": "number"
+            },
+            {
+                "header": "Total",
+                "type": "total",
+                "sum_of": [
+                    "Male",
+                    "Female"
+                ]
+            }
+        ],
+        "mandatory": false
+    },
+    "SOC_LMR_Q1": {
+        "question_id": "b2c3d4e5-f6a7-8901-bc23-de45fa67890b",
+        "framework": "SOC_LMR_Q1",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 402-1",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Labor-Management Relations",
+        "topic": "Notice Periods",
+        "question": "Minimum notice period provided to employees before significant operational changes",
+        "guidance": "Report the minimum number of weeks' notice typically provided to employees and/or their representatives prior to significant operational changes that could substantially affect them.",
+        "answer_type": "number",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "b2c3d4e5-f6a7-8901-bc23-de45fa67890c",
+                "framework": "SOC_LMR_Q1_SQ1",
+                "question": "Are the notice period and provisions for consultation and negotiation specified in collective agreements?",
+                "answer_type": "radio",
+                "options": [
+                    "Yes",
+                    "No",
+                    "No collective bargaining agreements in place"
+                ]
+            }
+        ],
+        "range": "0-1000000"
+    },
+    "SOC_LMR_Q1_SQ1": {
+        "question_id": "b2c3d4e5-f6a7-8901-bc23-de45fa67890c",
+        "framework": "SOC_LMR_Q1_SQ1",
+        "question": "Are the notice period and provisions for consultation and negotiation specified in collective agreements?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No",
+            "No collective bargaining agreements in place"
+        ]
+    },
+    "SOC_HNS_Q1": {
+        "question_id": "a6a149d6-03f4-42bb-b347-288e8c40cf2f",
+        "framework": "SOC_HNS_Q1",
+        "framework_codes": [
+            "GRI",
+            "IFC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 403-9",
+            "IFC PS 2",
+            "SDG 3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "Occupational Safety",
+        "question": "Total number of work-related injuries",
+        "guidance": "Include recordable injuries for both employees and workers who are not employees.",
+        "answer_type": "number",
+        "mandatory": true,
+        "range": "0-1000000"
+    },
+    "SOC_HNS_Q2": {
+        "question_id": "18f0b106-4552-4259-b7e8-2ef85de1f57a",
+        "framework": "SOC_HNS_Q2",
+        "framework_codes": [
+            "GRI",
+            "IFC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 403-9",
+            "IFC PS 2"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "Occupational Safety",
+        "question": "Total recordable injury rate (TRIR)",
+        "guidance": "TRIR = (Number of recordable injuries \u00d7 200,000) / Total hours worked.",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_HNS_Q3": {
+        "question_id": "f203d553-a112-4852-876f-fabddb73f09c",
+        "framework": "SOC_HNS_Q3",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 403-9",
+            "SDG 3"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "Occupational Safety",
+        "question": "Number of work-related fatalities",
+        "answer_type": "number",
+        "mandatory": true,
+        "range": "0-1000000"
+    },
+    "SOC_HNS_Q4": {
+        "question_id": "3b1ad5d1-d02f-420c-9cff-95807e2b6d69",
+        "framework": "SOC_HNS_Q4",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 403-9"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "Occupational Safety",
+        "question": "Total number of lost days due to work-related injuries",
+        "guidance": "Report total number of days lost.",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_HNS_Q5": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b67890",
+        "framework": "SOC_HNS_Q5",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 403-1",
+            "SDG 3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "OHS Management System",
+        "question": "Does the organisation have an occupational health and safety (OHS) management system?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No",
+            "In development"
+        ],
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b67891",
+                "framework": "SOC_HNS_Q5_SQ1",
+                "question": "Is the OHS management system based on legal requirements?",
+                "answer_type": "radio",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "condition": "Yes"
+            },
+            {
+                "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b67892",
+                "framework": "SOC_HNS_Q5_SQ2",
+                "question": "Is the OHS management system based on recognized risk management or management system standards/guidelines (e.g. ISO 45001)?",
+                "answer_type": "radio",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "condition": "Yes"
+            },
+            {
+                "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b67893",
+                "framework": "SOC_HNS_Q5_SQ3",
+                "question": "Describe the scope of workers, activities, and workplaces covered by the OHS management system",
+                "answer_type": "text",
+                "condition": "Yes"
+            }
+        ]
+    },
+    "SOC_HNS_Q5_SQ1": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b67891",
+        "framework": "SOC_HNS_Q5_SQ1",
+        "question": "Is the OHS management system based on legal requirements?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "condition": "Yes"
+    },
+    "SOC_HNS_Q5_SQ2": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b67892",
+        "framework": "SOC_HNS_Q5_SQ2",
+        "question": "Is the OHS management system based on recognized risk management or management system standards/guidelines (e.g. ISO 45001)?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "condition": "Yes"
+    },
+    "SOC_HNS_Q5_SQ3": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b67893",
+        "framework": "SOC_HNS_Q5_SQ3",
+        "question": "Describe the scope of workers, activities, and workplaces covered by the OHS management system",
+        "answer_type": "text",
+        "condition": "Yes",
+        "expected_answer": "The OHS management system covers all employees, temporary workers, and contractors across all operational sites, including office, manufacturing, and remote locations. It encompasses all standard work activities as well as high-risk operations, aligning with our comprehensive health and safety policy."
+    },
+    "SOC_HNS_Q6": {
+        "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c78901",
+        "framework": "SOC_HNS_Q6",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 403-2",
+            "SDG 3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "OHS Management System",
+        "question": "Describe the processes used to identify work-related hazards and assess risks",
+        "guidance": "Include how the hierarchy of controls is applied to eliminate hazards and minimise risks, how quality of these processes is ensured, and how results are used to continually improve the OHS management system.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "Hazards are identified through regular workplace inspections, job hazard analyses, and incident reporting. Risks are assessed based on likelihood and severity. The hierarchy of controls is strictly applied, prioritizing elimination and substitution, followed by engineering controls, administrative controls, and PPE. Risk assessments are reviewed annually and after any significant incident to ensure continuous improvement."
+    },
+    "SOC_HNS_Q7": {
+        "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d89012",
+        "framework": "SOC_HNS_Q7",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 403-3",
+            "SDG 3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "OHS Management System",
+        "question": "Describe the occupational health services available to workers",
+        "guidance": "Include the functions of these services that contribute to identifying and eliminating hazards, and how the organisation ensures quality and facilitates worker access.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "Occupational health services include on-site first aid, access to occupational health nurses, regular health screenings, and an Employee Assistance Program (EAP) for mental health support. The company ensures these services are easily accessible to all workers and strictly maintains confidentiality and quality of care."
+    },
+    "SOC_HNS_Q8": {
+        "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90123",
+        "framework": "SOC_HNS_Q8",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 403-4",
+            "SDG 3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "OHS Management System",
+        "question": "Describe how workers participate in and are consulted on the OHS management system",
+        "guidance": "Include processes for worker participation, access to OHS information, and communication channels.",
+        "answer_type": "text",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90124",
+                "framework": "SOC_HNS_Q8_SQ1",
+                "question": "Do formal joint management-worker health and safety committees exist?",
+                "answer_type": "radio",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90125",
+                "framework": "SOC_HNS_Q8_SQ2",
+                "question": "If yes, describe their responsibilities, meeting frequency, and decision-making authority",
+                "answer_type": "text",
+                "condition": "Yes"
+            }
+        ],
+        "expected_answer": "Workers actively participate in the OHS management system through joint health and safety committees, regular safety meetings, and anonymous hazard reporting channels. Employees are consulted on safety policies, risk assessments, and incident investigations to ensure comprehensive input."
+    },
+    "SOC_HNS_Q8_SQ1": {
+        "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90124",
+        "framework": "SOC_HNS_Q8_SQ1",
+        "question": "Do formal joint management-worker health and safety committees exist?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "SOC_HNS_Q8_SQ2": {
+        "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90125",
+        "framework": "SOC_HNS_Q8_SQ2",
+        "question": "If yes, describe their responsibilities, meeting frequency, and decision-making authority",
+        "answer_type": "text",
+        "condition": "Yes",
+        "expected_answer": "The joint health and safety committees meet monthly. They are responsible for reviewing incident reports, conducting safety audits, and evaluating the effectiveness of safety programs. The committee has the authority to make binding recommendations to management regarding safety improvements."
+    },
+    "SOC_HNS_Q9": {
+        "question_id": "a5b6c7d8-e9f0-1234-a5b6-c7d8e9f01234",
+        "framework": "SOC_HNS_Q9",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 403-5",
+            "SDG 3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "OHS Management System",
+        "question": "Describe OHS training provided to workers",
+        "guidance": "Include generic training as well as training on specific work-related hazards, hazardous activities, or hazardous situations. Cover both employees and workers who are not employees.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "All workers, including contractors, undergo mandatory OHS induction training upon joining. Role-specific training is provided for hazardous activities such as working at heights or handling chemicals. Refresher courses are conducted annually, and training effectiveness is evaluated regularly."
+    },
+    "SOC_HNS_Q10": {
+        "question_id": "b6c7d8e9-f0a1-2345-b6c7-d8e9f0a12345",
+        "framework": "SOC_HNS_Q10",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 403-6",
+            "SDG 3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "OHS Management System",
+        "question": "Describe voluntary health promotion services and programs offered to workers",
+        "guidance": "Include any non-occupational medical and healthcare services, and programs addressing major non-work-related health risks.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "The company offers comprehensive wellness programs, including subsidized gym memberships, nutritional counseling, mental health workshops, and smoking cessation programs. These voluntary services aim to address major non-work-related health risks and promote overall employee well-being."
+    },
+    "SOC_HNS_Q11": {
+        "question_id": "c7d8e9f0-a1b2-3456-c7d8-e9f0a1b23456",
+        "framework": "SOC_HNS_Q11",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 403-7",
+            "SDG 3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "OHS Management System",
+        "question": "Describe the approach to preventing or mitigating significant negative OHS impacts linked to business relationships",
+        "guidance": "Include operations, products, or services linked to significant OHS hazards and risks through the value chain.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "We conduct rigorous OHS assessments of all suppliers and business partners. High-risk operations within our value chain are subject to regular safety audits. We require partners to adhere to our supplier code of conduct, which mandates strict OHS standards, and we provide capability-building support to mitigate identified risks."
+    },
+    "SOC_HNS_Q12": {
+        "question_id": "d8e9f0a1-b2c3-4567-d8e9-f0a1b2c34567",
+        "framework": "SOC_HNS_Q12",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 403-8",
+            "SDG 3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "OHS Management System",
+        "question": "Number and percentage of workers covered by the OHS management system",
+        "guidance": "Report separately for employees and workers who are not employees. If any workers are excluded, explain why.",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_HNS_Q13": {
+        "question_id": "e9f0a1b2-c3d4-5678-e9f0-a1b2c3d45678",
+        "framework": "SOC_HNS_Q13",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 403-10",
+            "SDG 3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Health & Safety",
+        "topic": "Occupational Safety",
+        "question": "Work-related ill health \u2014 fatalities and recordable cases",
+        "guidance": "Report for both employees and workers who are not employees: number of fatalities as a result of work-related ill health; number of cases of recordable work-related ill health; main types of work-related ill health.",
+        "answer_type": "table_general",
+        "row_labels": [
+            "Employees",
+            "Workers who are not employees"
+        ],
+        "columns": [
+            {
+                "header": "Fatalities",
+                "type": "number"
+            },
+            {
+                "header": "Recordable cases",
+                "type": "number"
+            },
+            {
+                "header": "Main types of ill health",
+                "type": "text"
+            }
+        ],
+        "mandatory": false
+    },
+    "SOC_TRN_Q1": {
+        "question_id": "c8381d1e-83b6-40f9-8437-7ae17d972c7c",
+        "framework": "SOC_TRN_Q1",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 404-1",
+            "SDG 4",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Training & Development",
+        "topic": "Learning & Development",
+        "question": "Training hours and number of employees by category and gender",
+        "guidance": "Report total training hours and employee headcount broken down by employee category and gender. GRI 404-1a: average hours of training per year per employee by gender and employee category.",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "Employee Category",
+                "type": "text"
+            },
+            {
+                "header": "Hrs Male",
+                "type": "number",
+                "group": "Training Hours",
+                "subgroup": "Gender",
+                "label": "Male"
+            },
+            {
+                "header": "Hrs Female",
+                "type": "number",
+                "group": "Training Hours",
+                "subgroup": "Gender",
+                "label": "Female"
+            },
+            {
+                "header": "Hrs Others",
+                "type": "number",
+                "group": "Training Hours",
+                "subgroup": "Gender",
+                "label": "Others"
+            },
+            {
+                "header": "Hrs Total",
+                "type": "total",
+                "group": "Training Hours",
+                "subgroup": "Gender",
+                "label": "Total",
+                "sum_of": [
+                    "Hrs Male",
+                    "Hrs Female",
+                    "Hrs Others"
+                ]
+            },
+            {
+                "header": "Emp Male",
+                "type": "number",
+                "group": "Number of Employees",
+                "subgroup": "Gender",
+                "label": "Male"
+            },
+            {
+                "header": "Emp Female",
+                "type": "number",
+                "group": "Number of Employees",
+                "subgroup": "Gender",
+                "label": "Female"
+            },
+            {
+                "header": "Emp Others",
+                "type": "number",
+                "group": "Number of Employees",
+                "subgroup": "Gender",
+                "label": "Others"
+            },
+            {
+                "header": "Emp Total",
+                "type": "total",
+                "group": "Number of Employees",
+                "subgroup": "Gender",
+                "label": "Total",
+                "sum_of": [
+                    "Emp Male",
+                    "Emp Female",
+                    "Emp Others"
+                ]
+            }
+        ],
+        "mandatory": false
+    },
+    "SOC_TRN_Q2": {
+        "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e56789",
+        "framework": "SOC_TRN_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 404-2",
+            "SDG 4",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Training & Development",
+        "topic": "Learning & Development",
+        "question": "Describe programs implemented to upgrade employee skills and transition assistance provided",
+        "guidance": "Include the type and scope of programs to upgrade skills (upskilling/reskilling). Also describe transition assistance programs to facilitate continued employability for employees facing retirement or termination.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "We offer continuous learning opportunities through internal training academies, tuition reimbursement, and leadership development programs to upskill our workforce. For employees transitioning out due to retirement or restructuring, we provide career counseling, severance packages, and job placement assistance."
+    },
+    "SOC_TRN_Q3": {
+        "question_id": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67890",
+        "framework": "SOC_TRN_Q3",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 404-3a",
+            "SDG 4",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Training & Development",
+        "topic": "Performance & Development Reviews",
+        "question": "Number of employees who received a regular performance and career development review during the reporting period, by employee category and gender",
+        "guidance": "Report by gender and by employee category.",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_DIV_Q1": {
+        "question_id": "77c62f4f-148f-4fea-9668-bce936d53e40",
+        "framework": "SOC_DIV_Q1",
+        "framework_codes": [
+            "GRI",
+            "UNGC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 405-1",
+            "SDG 5",
+            "SDG 10"
+        ],
+        "category": "Social",
+        "subcategory": "Diversity & Inclusion",
+        "topic": "Board Diversity",
+        "question": "Percentage of women on the board of directors",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_DIV_Q2": {
+        "question_id": "b2c3d4e5-f6a7-8901-b2c3-d4e5f6a78901",
+        "framework": "SOC_DIV_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 405-1",
+            "SDG 5",
+            "SDG 10"
+        ],
+        "category": "Social",
+        "subcategory": "Diversity & Inclusion",
+        "topic": "Workforce Diversity",
+        "question": "Diversity of employees per category by gender and age group",
+        "guidance": "Report percentage of individuals within each employee category broken down by gender (as typed by employees) and age group (under 30, 30\u201350, over 50). Include any other indicators of diversity where relevant.",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "Employee Category",
+                "type": "text"
+            },
+            {
+                "header": "Male",
+                "type": "number",
+                "group": "Gender"
+            },
+            {
+                "header": "Female",
+                "type": "number",
+                "group": "Gender"
+            },
+            {
+                "header": "Non-Binary",
+                "type": "number",
+                "group": "Gender"
+            },
+            {
+                "header": "Gender Total",
+                "type": "total",
+                "group": "Gender",
+                "label": "Total",
+                "sum_of": [
+                    "Male",
+                    "Female",
+                    "Non-Binary"
+                ]
+            },
+            {
+                "header": "< 30 years",
+                "type": "number",
+                "group": "Age Group"
+            },
+            {
+                "header": "30\u201350 years",
+                "type": "number",
+                "group": "Age Group"
+            },
+            {
+                "header": "> 50 years",
+                "type": "number",
+                "group": "Age Group"
+            },
+            {
+                "header": "Age Total",
+                "type": "total",
+                "group": "Age Group",
+                "label": "Total",
+                "sum_of": [
+                    "< 30 years",
+                    "30\u201350 years",
+                    "> 50 years"
+                ]
+            },
+            {
+                "header": "Minority group",
+                "type": "number",
+                "group": "Diversity groups"
+            },
+            {
+                "header": "Vulnerable groups",
+                "type": "number",
+                "group": "Diversity groups"
+            }
+        ],
+        "mandatory": false
+    },
+    "SOC_DIV_Q3": {
+        "question_id": "c3d4e5f6-a7b8-9012-c3d4-e5f6a7b89012",
+        "framework": "SOC_DIV_Q3",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 405-2",
+            "SDG 5",
+            "SDG 8",
+            "SDG 10"
+        ],
+        "category": "Social",
+        "subcategory": "Diversity & Inclusion",
+        "topic": "Pay Equity",
+        "question": "Ratio of total remuneration of women to men",
+        "guidance": "Report by employee category and significant locations of operation. Total remuneration includes base salary, bonuses, and other compensation. Provide the definition used for 'significant locations of operation'.",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_HRG_Q1": {
+        "question_id": "c2c17b9f-35ba-488b-8219-e5c2ab6b982d",
+        "framework": "SOC_HRG_Q1",
+        "framework_codes": [
+            "GRI",
+            "UNGC",
+            "IFC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-23",
+            "UNGC H1 P1",
+            "IFC PS 2",
+            "SDG 8",
+            "SDG 16"
+        ],
+        "category": "Social",
+        "subcategory": "Human Rights",
+        "topic": "Human Rights",
+        "question": "Does the organisation have a human rights policy?",
+        "answer_type": "radio",
+        "options": [
+            "Yes \u2014 publicly available",
+            "Yes \u2014 internal only",
+            "No",
+            "In development"
+        ],
+        "mandatory": false
+    },
+    "SOC_NDC_Q1": {
+        "question_id": "d4e5f6a7-b8c9-0123-d4e5-f6a7b8c90123",
+        "framework": "SOC_NDC_Q1",
+        "framework_codes": [
+            "GRI",
+            "UNGC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 406-1",
+            "UNGC H1 P6",
+            "SDG 5",
+            "SDG 10"
+        ],
+        "category": "Social",
+        "subcategory": "Non-discrimination",
+        "topic": "Discrimination Incidents",
+        "question": "Total number of incidents of discrimination during the reporting period",
+        "guidance": "Include all incidents of discrimination on grounds such as race, colour, sex, religion, national origin, disability, age, or other protected characteristics.",
+        "answer_type": "number",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "d4e5f6a7-b8c9-0123-d4e5-f6a7b8c90124",
+                "framework": "SOC_NDC_Q1_SQ1",
+                "question": "Describe the status of each incident and actions taken (e.g. incident reviewed, remediation plan implemented, remediation completed, no longer subject to action)",
+                "answer_type": "text"
+            }
+        ],
+        "range": "0-1000000"
+    },
+    "SOC_NDC_Q1_SQ1": {
+        "question_id": "d4e5f6a7-b8c9-0123-d4e5-f6a7b8c90124",
+        "framework": "SOC_NDC_Q1_SQ1",
+        "question": "Describe the status of each incident and actions taken (e.g. incident reviewed, remediation plan implemented, remediation completed, no longer subject to action)",
+        "answer_type": "text",
+        "expected_answer": "All reported incidents of discrimination were thoroughly investigated by an independent ethics committee. Substantiated cases resulted in disciplinary action, including termination where necessary. Remediation plans, such as targeted diversity training and policy updates, were implemented and completed for all affected departments."
+    },
+    "SOC_FOA_Q1": {
+        "question_id": "e5f6a7b8-c9d0-1234-e5f6-a7b8c9d01234",
+        "framework": "SOC_FOA_Q1",
+        "framework_codes": [
+            "GRI",
+            "UNGC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 407-1",
+            "UNGC L3 P3",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Freedom of Association",
+        "topic": "Collective Bargaining",
+        "question": "Operations and suppliers where workers' rights to freedom of association or collective bargaining may be at significant risk",
+        "guidance": "Report by type of operation or supplier, and/or by country or geographic area. Include measures taken to support these rights.",
+        "answer_type": "text",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "e5f6a7b8-c9d0-1234-e5f6-a7b8c9d01235",
+                "framework": "SOC_FOA_Q1_SQ1",
+                "question": "Describe measures taken during the reporting period to support the right to freedom of association and collective bargaining",
+                "answer_type": "text"
+            }
+        ],
+        "expected_answer": "Our supply chain screening identified certain operations in high-risk geographic areas where freedom of association may be restricted by local laws. We closely monitor these regions and prioritize suppliers that demonstrate alternative means of worker representation and dialogue."
+    },
+    "SOC_FOA_Q1_SQ1": {
+        "question_id": "e5f6a7b8-c9d0-1234-e5f6-a7b8c9d01235",
+        "framework": "SOC_FOA_Q1_SQ1",
+        "question": "Describe measures taken during the reporting period to support the right to freedom of association and collective bargaining",
+        "answer_type": "text",
+        "expected_answer": "We actively engaged with suppliers in high-risk areas to establish parallel means of worker representation, such as worker councils and grievance mechanisms. We also conducted training on labor rights for factory management and workers to ensure open communication channels."
+    },
+    "SOC_CHL_Q1": {
+        "question_id": "f6a7b8c9-d0e1-2345-f6a7-b8c9d0e12345",
+        "framework": "SOC_CHL_Q1",
+        "framework_codes": [
+            "GRI",
+            "UNGC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 408-1",
+            "UNGC L4 P5",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Child Labour",
+        "topic": "Child Labour Risk",
+        "question": "Operations and suppliers considered to have significant risk for incidents of child labour",
+        "guidance": "Include operations and suppliers at risk for child labour and young workers in hazardous work, by type of operation/supplier or by country/geographic area.",
+        "answer_type": "text",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "f6a7b8c9-d0e1-2345-f6a7-b8c9d0e12346",
+                "framework": "SOC_CHL_Q1_SQ1",
+                "question": "Describe measures taken during the reporting period to contribute to the effective abolition of child labour",
+                "answer_type": "text"
+            }
+        ],
+        "expected_answer": "We continuously assess our supply chain for child labor risks, focusing particularly on raw material sourcing in developing regions. Our risk matrix considers both the type of operation, such as agriculture or mining, and the geopolitical context of the sourcing country."
+    },
+    "SOC_CHL_Q1_SQ1": {
+        "question_id": "f6a7b8c9-d0e1-2345-f6a7-b8c9d0e12346",
+        "framework": "SOC_CHL_Q1_SQ1",
+        "question": "Describe measures taken during the reporting period to contribute to the effective abolition of child labour",
+        "answer_type": "text",
+        "expected_answer": "We enforced a strict zero-tolerance policy for child labor across our supply chain. Measures included unannounced third-party audits, age-verification protocol checks, and community development programs designed to support education and improve local livelihoods."
+    },
+    "SOC_FRL_Q1": {
+        "question_id": "a7b8c9d0-e1f2-3456-a7b8-c9d0e1f23456",
+        "framework": "SOC_FRL_Q1",
+        "framework_codes": [
+            "GRI",
+            "UNGC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 409-1",
+            "UNGC L5 P4",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Forced Labour",
+        "topic": "Forced Labour Risk",
+        "question": "Operations and suppliers considered to have significant risk for incidents of forced or compulsory labour",
+        "guidance": "Report by type of operation/supplier or by country/geographic area.",
+        "answer_type": "text",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "a7b8c9d0-e1f2-3456-a7b8-c9d0e1f23457",
+                "framework": "SOC_FRL_Q1_SQ1",
+                "question": "Describe measures taken during the reporting period to contribute to the elimination of all forms of forced or compulsory labour",
+                "answer_type": "text"
+            }
+        ],
+        "expected_answer": "Risk assessments identified potential exposure to forced labor primarily within deeper tiers of our supply chain, particularly in sectors relying heavily on migrant labor or in regions with weak labor protections."
+    },
+    "SOC_FRL_Q1_SQ1": {
+        "question_id": "a7b8c9d0-e1f2-3456-a7b8-c9d0e1f23457",
+        "framework": "SOC_FRL_Q1_SQ1",
+        "question": "Describe measures taken during the reporting period to contribute to the elimination of all forms of forced or compulsory labour",
+        "answer_type": "text",
+        "expected_answer": "We implemented comprehensive due diligence processes, including the 'Employer Pays Principle' to prevent recruitment fees. We conducted specialized audits for forced labor indicators, provided supplier training, and established accessible, anonymous grievance mechanisms for migrant workers."
+    },
+    "SOC_SEC_Q1": {
+        "question_id": "b8c9d0e1-f2a3-4567-b8c9-d0e1f2a34567",
+        "framework": "SOC_SEC_Q1",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 410-1",
+            "SDG 16"
+        ],
+        "category": "Social",
+        "subcategory": "Security Practices",
+        "topic": "Human Rights Training",
+        "question": "Percentage of security personnel who have received formal training in the organisation's human rights policies or specific procedures",
+        "guidance": "Include both internal security personnel and third-party security organisations.",
+        "answer_type": "number",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "b8c9d0e1-f2a3-4567-b8c9-d0e1f2a34568",
+                "framework": "SOC_SEC_Q1_SQ1",
+                "question": "Do training requirements also apply to third-party organisations providing security personnel?",
+                "answer_type": "radio",
+                "options": [
+                    "Yes",
+                    "No",
+                    "No third-party security personnel"
+                ]
+            }
+        ],
+        "range": "0-1000000"
+    },
+    "SOC_SEC_Q1_SQ1": {
+        "question_id": "b8c9d0e1-f2a3-4567-b8c9-d0e1f2a34568",
+        "framework": "SOC_SEC_Q1_SQ1",
+        "question": "Do training requirements also apply to third-party organisations providing security personnel?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No",
+            "No third-party security personnel"
+        ]
+    },
+    "SOC_IND_Q1": {
+        "question_id": "c9d0e1f2-a3b4-5678-c9d0-e1f2a3b45678",
+        "framework": "SOC_IND_Q1",
+        "framework_codes": [
+            "GRI",
+            "UNGC"
+        ],
+        "index": [
+            "GRI 411-1",
+            "SDG 10",
+            "SDG 16"
+        ],
+        "category": "Social",
+        "subcategory": "Rights of Indigenous Peoples",
+        "topic": "Indigenous Rights Incidents",
+        "question": "Total number of identified incidents of violations involving the rights of indigenous peoples during the reporting period",
+        "answer_type": "number",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "c9d0e1f2-a3b4-5678-c9d0-e1f2a3b45679",
+                "framework": "SOC_IND_Q1_SQ1",
+                "question": "Describe the status of each incident and actions taken",
+                "answer_type": "text"
+            }
+        ],
+        "range": "0-1000000"
+    },
+    "SOC_IND_Q1_SQ1": {
+        "question_id": "c9d0e1f2-a3b4-5678-c9d0-e1f2a3b45679",
+        "framework": "SOC_IND_Q1_SQ1",
+        "question": "Describe the status of each incident and actions taken",
+        "answer_type": "text",
+        "expected_answer": "Any incidents involving the rights of indigenous peoples were immediately escalated for review. We engaged in culturally appropriate, good faith consultations with affected communities. Actions taken included project modifications to avoid impacts, fair compensation, and the establishment of ongoing collaborative monitoring agreements."
+    },
+    "SOC_COM_Q1": {
+        "question_id": "d0e1f2a3-b4c5-6789-d0e1-f2a3b4c56789",
+        "framework": "SOC_COM_Q1",
+        "framework_codes": [
+            "GRI",
+            "IFC"
+        ],
+        "index": [
+            "GRI 413-1",
+            "IFC PS 1",
+            "SDG 11"
+        ],
+        "category": "Social",
+        "subcategory": "Local Communities",
+        "topic": "Community Engagement",
+        "question": "Percentage of operations with implemented local community engagement, impact assessments, and/or development programs",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_COM_Q2": {
+        "question_id": "e1f2a3b4-c5d6-7890-e1f2-a3b4c5d67890",
+        "framework": "SOC_COM_Q2",
+        "framework_codes": [
+            "GRI",
+            "IFC"
+        ],
+        "index": [
+            "GRI 413-2",
+            "IFC PS 1",
+            "SDG 11"
+        ],
+        "category": "Social",
+        "subcategory": "Local Communities",
+        "topic": "Community Engagement",
+        "question": "Operations with significant actual and potential negative impacts on local communities",
+        "guidance": "Describe the location of such operations and the nature of the significant actual and potential negative impacts.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "For operations with potential environmental or social impacts on local communities, we conducted comprehensive Environmental and Social Impact Assessments (ESIA). We implemented robust mitigation hierarchies, ensuring continuous community engagement and the operation of accessible grievance mechanisms to address any concerns promptly."
+    },
+    "SOC_SUP_Q1": {
+        "question_id": "f2a3b4c5-d6e7-8901-f2a3-b4c5d6e78901",
+        "framework": "SOC_SUP_Q1",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 414-1",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Supplier Social Assessment",
+        "topic": "Supply Chain Screening",
+        "question": "Percentage of new suppliers screened using social criteria",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_SUP_Q2": {
+        "question_id": "a3b4c5d6-e7f8-9012-a3b4-c5d6e7f89012",
+        "framework": "SOC_SUP_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 414-2",
+            "SDG 8"
+        ],
+        "category": "Social",
+        "subcategory": "Supplier Social Assessment",
+        "topic": "Supply Chain Screening",
+        "question": "Suppliers assessed for social impacts and negative impacts identified",
+        "guidance": "Report: number of suppliers assessed; number identified as having significant actual or potential negative social impacts; % with improvements agreed; % relationships terminated and reasons.",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "Supplier Category / Region",
+                "type": "text"
+            },
+            {
+                "header": "Total Assessed",
+                "type": "number"
+            },
+            {
+                "header": "With Significant Negative Impacts",
+                "type": "number"
+            },
+            {
+                "header": "Improvements Agreed (%)",
+                "type": "number"
+            },
+            {
+                "header": "Relationships Terminated",
+                "type": "number"
+            }
+        ],
+        "mandatory": false
+    },
+    "SOC_POL_Q1": {
+        "question_id": "b4c5d6e7-f8a9-0123-b4c5-d6e7f8a90123",
+        "framework": "SOC_POL_Q1",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 415-1",
+            "SDG 16"
+        ],
+        "category": "Social",
+        "subcategory": "Public Policy",
+        "topic": "Political Contributions",
+        "question": "Total monetary value of financial and in-kind political contributions made directly and indirectly",
+        "guidance": "Report by country and recipient/beneficiary. If in-kind, explain how the monetary value was estimated.",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "Country",
+                "type": "text"
+            },
+            {
+                "header": "Recipient / Beneficiary",
+                "type": "text"
+            },
+            {
+                "header": "Type",
+                "type": "select",
+                "options": [
+                    "Direct monetary",
+                    "Indirect monetary",
+                    "In-kind"
+                ]
+            },
+            {
+                "header": "Monetary Value",
+                "type": "number"
+            },
+            {
+                "header": "Currency",
+                "type": "text"
+            }
+        ],
+        "mandatory": false
+    },
+    "SOC_CHS_Q1": {
+        "question_id": "c5d6e7f8-a9b0-1234-c5d6-e7f8a9b01234",
+        "framework": "SOC_CHS_Q1",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 416-1",
+            "SDG 3"
+        ],
+        "category": "Social",
+        "subcategory": "Customer Health & Safety",
+        "topic": "Product Safety",
+        "question": "Percentage of significant product and service categories for which health and safety impacts are assessed for improvement",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_CHS_Q2": {
+        "question_id": "d6e7f8a9-b0c1-2345-d6e7-f8a9b0c12345",
+        "framework": "SOC_CHS_Q2",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 416-2",
+            "SDG 3"
+        ],
+        "category": "Social",
+        "subcategory": "Customer Health & Safety",
+        "topic": "Product Safety",
+        "question": "Incidents of non-compliance concerning the health and safety impacts of products and services",
+        "guidance": "Report total number of incidents by type: non-compliance with regulations resulting in a fine or penalty; non-compliance with regulations resulting in a warning; non-compliance with voluntary codes.",
+        "answer_type": "number",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "d6e7f8a9-b0c1-2345-d6e7-f8a9b0c12346",
+                "framework": "SOC_CHS_Q2_SQ1",
+                "question": "If no incidents of non-compliance were identified, confirm this",
+                "answer_type": "radio",
+                "options": [
+                    "Confirmed \u2014 no non-compliance identified",
+                    "Non-compliance incidents exist (reported above)"
+                ]
+            }
+        ],
+        "range": "0-1000000"
+    },
+    "SOC_CHS_Q2_SQ1": {
+        "question_id": "d6e7f8a9-b0c1-2345-d6e7-f8a9b0c12346",
+        "framework": "SOC_CHS_Q2_SQ1",
+        "question": "If no incidents of non-compliance were identified, confirm this",
+        "answer_type": "radio",
+        "options": [
+            "Confirmed \u2014 no non-compliance identified",
+            "Non-compliance incidents exist (reported above)"
+        ]
+    },
+    "SOC_MKT_Q1": {
+        "question_id": "e7f8a9b0-c1d2-3456-e7f8-a9b0c1d23456",
+        "framework": "SOC_MKT_Q1",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 417-1",
+            "SDG 12"
+        ],
+        "category": "Social",
+        "subcategory": "Marketing & Labeling",
+        "topic": "Product Information",
+        "question": "Which product and service information is required by the organisation's procedures for labeling?",
+        "guidance": "Select all that apply. Report the percentage of significant product/service categories covered by and assessed for compliance.",
+        "answer_type": "multi_select",
+        "options": [
+            "Sourcing of components",
+            "Content \u2014 substances with environmental or social impact",
+            "Safe use of the product or service",
+            "Disposal of the product and environmental or social impacts",
+            "Other information"
+        ],
+        "mandatory": false
+    },
+    "SOC_MKT_Q2": {
+        "question_id": "f8a9b0c1-d2e3-4567-f8a9-b0c1d2e34567",
+        "framework": "SOC_MKT_Q2",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 417-2",
+            "SDG 12"
+        ],
+        "category": "Social",
+        "subcategory": "Marketing & Labeling",
+        "topic": "Labeling Compliance",
+        "question": "Total number of incidents of non-compliance with regulations and/or voluntary codes concerning product and service information and labeling",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_MKT_Q3": {
+        "question_id": "a9b0c1d2-e3f4-5678-a9b0-c1d2e3f45678",
+        "framework": "SOC_MKT_Q3",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 417-3",
+            "SDG 12"
+        ],
+        "category": "Social",
+        "subcategory": "Marketing & Labeling",
+        "topic": "Marketing Communications",
+        "question": "Total number of incidents of non-compliance with regulations and/or voluntary codes concerning marketing communications (advertising, promotion, sponsorship)",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "SOC_PRV_Q1": {
+        "question_id": "b0c1d2e3-f4a5-6789-b0c1-d2e3f4a56789",
+        "framework": "SOC_PRV_Q1",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 418-1",
+            "SDG 16"
+        ],
+        "category": "Social",
+        "subcategory": "Customer Privacy",
+        "topic": "Data Privacy",
+        "question": "Substantiated complaints received concerning breaches of customer privacy and cases of data leaks",
+        "guidance": "Report: total number of substantiated complaints received (from external parties and from regulatory bodies); total number of identified leaks, thefts, or losses of customer data.",
+        "answer_type": "number",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "b0c1d2e3-f4a5-6789-b0c1-d2e3f4a56790",
+                "framework": "SOC_PRV_Q1_SQ1",
+                "question": "Total number of identified leaks, thefts, or losses of customer data during the reporting period",
+                "answer_type": "number"
+            },
+            {
+                "question_id": "b0c1d2e3-f4a5-6789-b0c1-d2e3f4a56791",
+                "framework": "SOC_PRV_Q1_SQ2",
+                "question": "If no substantiated complaints were identified, confirm this",
+                "answer_type": "radio",
+                "options": [
+                    "Confirmed \u2014 no substantiated complaints",
+                    "Complaints exist (reported above)"
+                ]
+            }
+        ],
+        "range": "0-1000000"
+    },
+    "SOC_PRV_Q1_SQ1": {
+        "question_id": "b0c1d2e3-f4a5-6789-b0c1-d2e3f4a56790",
+        "framework": "SOC_PRV_Q1_SQ1",
+        "question": "Total number of identified leaks, thefts, or losses of customer data during the reporting period",
+        "answer_type": "number",
+        "range": "0-1000000"
+    },
+    "SOC_PRV_Q1_SQ2": {
+        "question_id": "b0c1d2e3-f4a5-6789-b0c1-d2e3f4a56791",
+        "framework": "SOC_PRV_Q1_SQ2",
+        "question": "If no substantiated complaints were identified, confirm this",
+        "answer_type": "radio",
+        "options": [
+            "Confirmed \u2014 no substantiated complaints",
+            "Complaints exist (reported above)"
+        ]
+    }
+}
