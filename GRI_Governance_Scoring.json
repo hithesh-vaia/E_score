@@ -1,0 +1,1720 @@
+{
+    "GOV_BRD_Q1": {
+        "question_id": "9a585e66-918f-4244-99f2-a74f196acce8",
+        "framework": "GOV_BRD_Q1",
+        "framework_codes": [
+            "GRI",
+            "TCFD",
+            "SGX",
+            "IFRS_S1",
+            "IFRS_S2"
+        ],
+        "index": [
+            "GRI 2-9",
+            "SDG 5",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Board & Leadership",
+        "topic": "Board Composition",
+        "question": "Total number of board members",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "GOV_BRD_Q2": {
+        "question_id": "99fdb5ed-6c6e-40b2-b3a2-f250019b5afd",
+        "framework": "GOV_BRD_Q2",
+        "framework_codes": [
+            "GRI",
+            "TCFD",
+            "SGX",
+            "IFRS_S1",
+            "IFRS_S2"
+        ],
+        "index": [
+            "GRI 2-9",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Board & Leadership",
+        "topic": "ESG Oversight",
+        "question": "Does the board have oversight of sustainability/ESG topics?",
+        "answer_type": "radio",
+        "options": [
+            "Yes \u2014 dedicated committee",
+            "Yes \u2014 full board",
+            "No",
+            "In progress"
+        ],
+        "mandatory": false
+    },
+    "GOV_BRD_Q3": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60001",
+        "framework": "GOV_BRD_Q3",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-9",
+            "SDG 5",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Board & Leadership",
+        "topic": "Board Composition",
+        "question": "Describe the governance structure, including the composition of the highest governance body and its committees",
+        "guidance": "Include: list of committees; composition by executive vs non-executive members; independence; tenure of members; number of other significant positions held by each member; gender; under-represented social groups; competencies relevant to the organisation's impacts; stakeholder representation.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "The highest governance body is the Board of Directors, which is composed of a majority of independent non-executive directors. It includes dedicated sub-committees for Audit, Risk Management, Remuneration, and Sustainability. The Sustainability Committee directly oversees ESG strategies and reports quarterly to the main Board."
+    },
+    "GOV_BRD_Q4": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60002",
+        "framework": "GOV_BRD_Q4",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-10",
+            "SDG 5",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Board & Leadership",
+        "topic": "Board Composition",
+        "question": "Describe the nomination and selection processes for the highest governance body and its committees",
+        "guidance": "Include the criteria used for nominating and selecting members, and whether the following are taken into consideration: views of stakeholders (including shareholders); diversity; independence; competencies relevant to the organisation's impacts.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "The Nomination Committee oversees the selection process, utilizing a skills matrix to ensure diverse expertise in industry knowledge, financial acumen, and ESG proficiency. Candidates are evaluated for independence, diversity (including gender and background), and their ability to represent stakeholder interests effectively."
+    },
+    "GOV_BRD_Q5": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60003",
+        "framework": "GOV_BRD_Q5",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-11",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Board & Leadership",
+        "topic": "Board Composition",
+        "question": "Is the chair of the highest governance body also a senior executive in the organisation?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60004",
+                "framework": "GOV_BRD_Q5_SQ1",
+                "question": "If yes, explain their function within the organisation's management, the reasons for this arrangement, and how conflicts of interest are prevented and mitigated",
+                "answer_type": "text",
+                "condition": "Yes"
+            }
+        ]
+    },
+    "GOV_BRD_Q5_SQ1": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60004",
+        "framework": "GOV_BRD_Q5_SQ1",
+        "question": "If yes, explain their function within the organisation's management, the reasons for this arrangement, and how conflicts of interest are prevented and mitigated",
+        "answer_type": "text",
+        "condition": "Yes",
+        "expected_answer": "The Chair holds an executive management role to ensure swift decision-making and deep operational alignment. To prevent conflicts of interest, a strong Lead Independent Director is appointed, and executive sessions without the Chair are held regularly. Key oversight committees are composed exclusively of independent directors."
+    },
+    "GOV_BRD_Q6": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60005",
+        "framework": "GOV_BRD_Q6",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-9-b",
+            "SDG 5",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Board & Leadership",
+        "topic": "Board Composition",
+        "question": "Number of independent directors on the board",
+        "answer_type": "number",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60006",
+                "framework": "GOV_BRD_Q6_SQ1",
+                "question": "Total number of directors on the board",
+                "answer_type": "number"
+            }
+        ],
+        "range": "0-1000000"
+    },
+    "GOV_BRD_Q6_SQ1": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60006",
+        "framework": "GOV_BRD_Q6_SQ1",
+        "question": "Total number of directors on the board",
+        "answer_type": "number",
+        "range": "0-1000000"
+    },
+    "GOV_BRD_Q7": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60007",
+        "framework": "GOV_BRD_Q7",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-21",
+            "SDG 10"
+        ],
+        "category": "Governance",
+        "subcategory": "Board & Leadership",
+        "topic": "Executive Compensation",
+        "question": "Ratio of the annual total compensation for the highest-paid individual to the median annual total compensation for all other employees",
+        "guidance": "Report the ratio as a number (e.g. 15 means 15:1). Also report the ratio of the percentage increase in annual total compensation for the highest-paid individual to the median percentage increase for all other employees.",
+        "answer_type": "number",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60008",
+                "framework": "GOV_BRD_Q7_SQ1",
+                "question": "Ratio of percentage increase in annual total compensation for the highest-paid individual to the median percentage increase for all other employees",
+                "answer_type": "number"
+            }
+        ],
+        "range": "0-1000000"
+    },
+    "GOV_BRD_Q7_SQ1": {
+        "question_id": "c1d2e3f4-a5b6-7890-c1d2-e3f4a5b60008",
+        "framework": "GOV_BRD_Q7_SQ1",
+        "question": "Ratio of percentage increase in annual total compensation for the highest-paid individual to the median percentage increase for all other employees",
+        "answer_type": "number",
+        "range": "0-1000000"
+    },
+    "GOV_BST_Q1": {
+        "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70001",
+        "framework": "GOV_BST_Q1",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-12",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Board Involvement in Sustainability",
+        "topic": "Strategy Oversight",
+        "question": "Describe the role of the highest governance body and senior executives in developing, approving, and updating the organisation's sustainability purpose, strategy, policies, and goals",
+        "guidance": "Include: how the board oversees due diligence and other processes to identify and manage the organisation's impacts; how it engages with stakeholders; how it considers the outcomes of due diligence processes; frequency of review of effectiveness.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "The Board of Directors holds ultimate responsibility for approving the sustainability strategy and overarching ESG goals. Senior executives, led by the Chief Sustainability Officer, are responsible for developing these strategies, embedding them into business operations, and presenting annual updates and performance metrics to the Board for review."
+    },
+    "GOV_BST_Q2": {
+        "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70002",
+        "framework": "GOV_BST_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-13",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Board Involvement in Sustainability",
+        "topic": "Delegation of Responsibility",
+        "question": "Describe how the highest governance body delegates responsibility for managing the organisation's impacts on the economy, environment, and people",
+        "guidance": "Include: whether senior executives or other employees have been appointed with responsibility for managing impacts; the process and frequency for reporting back to the board on the management of impacts.",
+        "answer_type": "text",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70003",
+                "framework": "GOV_BST_Q2_SQ1",
+                "question": "Has the highest governance body appointed senior executives with responsibility for managing impacts?",
+                "answer_type": "radio",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70004",
+                "framework": "GOV_BST_Q2_SQ2",
+                "question": "Has the highest governance body delegated responsibility for managing impacts to other employees?",
+                "answer_type": "radio",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "expected_answer": "The Board delegates day-to-day management of ESG impacts to the Executive Management Team, specifically through the Sustainability Steering Committee. Clear mandates and performance targets are established, and regular progress reports are mandated to ensure accountability at both the operational and executive levels."
+    },
+    "GOV_BST_Q2_SQ1": {
+        "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70003",
+        "framework": "GOV_BST_Q2_SQ1",
+        "question": "Has the highest governance body appointed senior executives with responsibility for managing impacts?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "GOV_BST_Q2_SQ2": {
+        "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70004",
+        "framework": "GOV_BST_Q2_SQ2",
+        "question": "Has the highest governance body delegated responsibility for managing impacts to other employees?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "GOV_BST_Q3": {
+        "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70005",
+        "framework": "GOV_BST_Q3",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-14",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Board Involvement in Sustainability",
+        "topic": "Sustainability Reporting",
+        "question": "Is the highest governance body responsible for reviewing and approving the organisation's reported sustainability information, including material topics?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70006",
+                "framework": "GOV_BST_Q3_SQ1",
+                "question": "Describe the process for the highest governance body to review and approve the reported information",
+                "answer_type": "text",
+                "condition": "Yes"
+            },
+            {
+                "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70007",
+                "framework": "GOV_BST_Q3_SQ2",
+                "question": "If the board is not responsible, explain why",
+                "answer_type": "text",
+                "condition": "No"
+            }
+        ]
+    },
+    "GOV_BST_Q3_SQ1": {
+        "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70006",
+        "framework": "GOV_BST_Q3_SQ1",
+        "question": "Describe the process for the highest governance body to review and approve the reported information",
+        "answer_type": "text",
+        "condition": "Yes",
+        "expected_answer": "The Board's Audit and Sustainability Committees conduct a comprehensive review of the annual sustainability report. They ensure alignment with financial reporting, verify data integrity through internal audits, and grant final approval before publication."
+    },
+    "GOV_BST_Q3_SQ2": {
+        "question_id": "d2e3f4a5-b6c7-8901-d2e3-f4a5b6c70007",
+        "framework": "GOV_BST_Q3_SQ2",
+        "question": "If the board is not responsible, explain why",
+        "answer_type": "text",
+        "condition": "No",
+        "expected_answer": "Responsibility is fully assumed by the Board; however, if delegated, it is due to a specific structural mandate where a specialized executive ESG committee holds final authority, subject to annual retrospective review by the Board."
+    },
+    "GOV_ETH_Q1": {
+        "question_id": "045fd154-253f-4cd8-9135-2bc4e08c52f3",
+        "framework": "GOV_ETH_Q1",
+        "framework_codes": [
+            "GRI",
+            "UNGC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-26",
+            "UNGC G1 P10",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Ethics & Compliance",
+        "topic": "Anti-Corruption",
+        "question": "Does the organisation have an anti-corruption policy?",
+        "answer_type": "radio",
+        "options": [
+            "Yes \u2014 publicly available",
+            "Yes \u2014 internal only",
+            "No"
+        ],
+        "mandatory": false
+    },
+    "GOV_GOV_Q1": {
+        "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d80001",
+        "framework": "GOV_GOV_Q1",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 2-15",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Governance",
+        "topic": "Conflict of Interest",
+        "question": "Describe the processes for the highest governance body to ensure that conflicts of interest are prevented and mitigated",
+        "guidance": "Include whether conflicts of interest are disclosed to stakeholders in relation to: cross-board membership; cross-shareholding with suppliers and other stakeholders; existence of controlling shareholders; related parties, their relationships, transactions, and outstanding balances.",
+        "answer_type": "text",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d80002",
+                "framework": "GOV_GOV_Q1_SQ1",
+                "question": "Are conflicts of interest disclosed to stakeholders?",
+                "answer_type": "radio",
+                "options": [
+                    "Yes \u2014 all types",
+                    "Yes \u2014 some types",
+                    "No"
+                ]
+            }
+        ],
+        "expected_answer": "A rigorous Conflict of Interest Policy requires annual declarations from all Board members and executives. Any potential conflict must be disclosed immediately, and conflicted individuals are recused from relevant discussions and voting processes."
+    },
+    "GOV_GOV_Q1_SQ1": {
+        "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d80002",
+        "framework": "GOV_GOV_Q1_SQ1",
+        "question": "Are conflicts of interest disclosed to stakeholders?",
+        "answer_type": "radio",
+        "options": [
+            "Yes \u2014 all types",
+            "Yes \u2014 some types",
+            "No"
+        ]
+    },
+    "GOV_GOV_Q2": {
+        "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d80003",
+        "framework": "GOV_GOV_Q2",
+        "framework_codes": [
+            "GRI"
+        ],
+        "index": [
+            "GRI 2-16",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Governance",
+        "topic": "Critical Concerns",
+        "question": "Are critical concerns communicated to the highest governance body?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d80004",
+                "framework": "GOV_GOV_Q2_SQ1",
+                "question": "Describe how critical concerns are communicated to the highest governance body",
+                "answer_type": "text",
+                "condition": "Yes"
+            },
+            {
+                "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d80005",
+                "framework": "GOV_GOV_Q2_SQ2",
+                "question": "Total number of critical concerns communicated to the highest governance body during the reporting period",
+                "answer_type": "number",
+                "condition": "Yes"
+            },
+            {
+                "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d80006",
+                "framework": "GOV_GOV_Q2_SQ3",
+                "question": "Describe the nature of critical concerns communicated to the highest governance body",
+                "answer_type": "text",
+                "condition": "Yes"
+            }
+        ]
+    },
+    "GOV_GOV_Q2_SQ1": {
+        "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d80004",
+        "framework": "GOV_GOV_Q2_SQ1",
+        "question": "Describe how critical concerns are communicated to the highest governance body",
+        "answer_type": "text",
+        "condition": "Yes",
+        "expected_answer": "Critical concerns are escalated to the Board via a formalized risk management framework. The Chief Risk Officer and internal audit teams report directly to the Board's Risk Committee. Additionally, a secure, anonymous whistleblowing mechanism provides a direct channel to the Lead Independent Director."
+    },
+    "GOV_GOV_Q2_SQ2": {
+        "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d80005",
+        "framework": "GOV_GOV_Q2_SQ2",
+        "question": "Total number of critical concerns communicated to the highest governance body during the reporting period",
+        "answer_type": "number",
+        "condition": "Yes",
+        "range": "0-1000000"
+    },
+    "GOV_GOV_Q2_SQ3": {
+        "question_id": "e3f4a5b6-c7d8-9012-e3f4-a5b6c7d80006",
+        "framework": "GOV_GOV_Q2_SQ3",
+        "question": "Describe the nature of critical concerns communicated to the highest governance body",
+        "answer_type": "text",
+        "condition": "Yes",
+        "expected_answer": "Critical concerns primarily include significant regulatory compliance breaches, major cybersecurity incidents, systemic operational risks, and severe allegations of ethical misconduct or environmental violations."
+    },
+    "GOV_RSK_Q1": {
+        "question_id": "9e1f6ca4-da77-4843-a117-c697ed54574f",
+        "framework": "GOV_RSK_Q1",
+        "framework_codes": [
+            "TCFD",
+            "SGX",
+            "IFRS_S2"
+        ],
+        "index": [
+            "TCFD Risk",
+            "SDG 13"
+        ],
+        "category": "Governance",
+        "subcategory": "Risk Management",
+        "topic": "Climate Risk",
+        "question": "Has the organisation identified climate-related physical and transition risks?",
+        "answer_type": "radio",
+        "options": [
+            "Yes \u2014 both physical and transition",
+            "Yes \u2014 physical only",
+            "Yes \u2014 transition only",
+            "No",
+            "In progress"
+        ],
+        "mandatory": false
+    },
+    "GOV_PRM_Q1": {
+        "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90001",
+        "framework": "GOV_PRM_Q1",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-17",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Performance & Remuneration",
+        "topic": "Sustainability Knowledge",
+        "question": "Describe measures taken to advance the collective knowledge, skills, and experience of the highest governance body on sustainable development",
+        "guidance": "Include any training programs, briefings, external expertise, or other initiatives undertaken during the reporting period.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "The Board undergoes annual specialized training on emerging ESG trends, climate risk, and human rights. External experts and consultants are frequently invited to brief the Board, ensuring their knowledge remains current with global sustainability standards."
+    },
+    "GOV_PRM_Q2": {
+        "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90002",
+        "framework": "GOV_PRM_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-18",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Performance & Remuneration",
+        "topic": "Performance Evaluations",
+        "question": "Describe the processes for evaluating the performance of the highest governance body in overseeing the management of the organisation's impacts",
+        "answer_type": "text",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90003",
+                "framework": "GOV_PRM_Q2_SQ1",
+                "question": "Are these evaluations conducted independently?",
+                "answer_type": "radio",
+                "options": [
+                    "Yes",
+                    "No",
+                    "Sometimes"
+                ]
+            },
+            {
+                "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90004",
+                "framework": "GOV_PRM_Q2_SQ2",
+                "question": "How frequently are these evaluations conducted?",
+                "answer_type": "select",
+                "options": [
+                    "Annually",
+                    "Every two years",
+                    "Every three years or more",
+                    "Ad hoc",
+                    "Not conducted"
+                ]
+            },
+            {
+                "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90005",
+                "framework": "GOV_PRM_Q2_SQ3",
+                "question": "Describe actions taken in response to evaluations, including changes to the composition of the board and organisational practices",
+                "answer_type": "text"
+            }
+        ],
+        "expected_answer": "An annual Board effectiveness review is conducted, incorporating self-assessments and peer evaluations. Every three years, an independent external consultant facilitates a comprehensive review that specifically evaluates the Board's oversight of sustainability and ESG impacts."
+    },
+    "GOV_PRM_Q2_SQ1": {
+        "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90003",
+        "framework": "GOV_PRM_Q2_SQ1",
+        "question": "Are these evaluations conducted independently?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No",
+            "Sometimes"
+        ]
+    },
+    "GOV_PRM_Q2_SQ2": {
+        "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90004",
+        "framework": "GOV_PRM_Q2_SQ2",
+        "question": "How frequently are these evaluations conducted?",
+        "answer_type": "select",
+        "options": [
+            "Annually",
+            "Every two years",
+            "Every three years or more",
+            "Ad hoc",
+            "Not conducted"
+        ]
+    },
+    "GOV_PRM_Q2_SQ3": {
+        "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90005",
+        "framework": "GOV_PRM_Q2_SQ3",
+        "question": "Describe actions taken in response to evaluations, including changes to the composition of the board and organisational practices",
+        "answer_type": "text",
+        "expected_answer": "Following performance evaluations, we implement targeted training programs, restructure committee memberships to optimize skill alignment, and prioritize specific ESG expertise in our ongoing director succession planning."
+    },
+    "GOV_PRM_Q3": {
+        "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90006",
+        "framework": "GOV_PRM_Q3",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-19",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Performance & Remuneration",
+        "topic": "Remuneration",
+        "question": "Describe the remuneration policies for members of the highest governance body and senior executives",
+        "guidance": "Include policies for: fixed pay and variable pay; sign-on bonuses or recruitment incentive payments; termination payments; clawbacks; retirement benefits. Also describe how these policies relate to the organisation's objectives and performance in managing its impacts.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "Remuneration is structured to align with long-term corporate strategy and stakeholder interests. It includes a fixed base salary and variable components (bonuses and equity) that are strictly tied to both financial performance and specific ESG targets."
+    },
+    "GOV_PRM_Q4": {
+        "question_id": "f4a5b6c7-d8e9-0123-f4a5-b6c7d8e90007",
+        "framework": "GOV_PRM_Q4",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-20",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Performance & Remuneration",
+        "topic": "Remuneration",
+        "question": "Describe the process for designing remuneration policies and determining remuneration for the highest governance body and senior executives",
+        "guidance": "Include: whether an independent remuneration committee oversees the process; how stakeholder views are sought and taken into account; whether remuneration consultants are involved and whether they are independent. Also report results of stakeholder votes on remuneration policies and proposals, if applicable.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "The independent Remuneration Committee designs the policies using market benchmarking and external compensation consultants. The policies are reviewed annually and submitted to shareholders for an advisory vote to ensure transparency and alignment."
+    },
+    "GOV_STR_Q1": {
+        "question_id": "a5b6c7d8-e9f0-1234-a5b6-c7d8e9f00001",
+        "framework": "GOV_STR_Q1",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-22",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Sustainability Strategy",
+        "topic": "Sustainability Strategy",
+        "question": "Statement from the highest governance body or most senior executive on the relevance of sustainable development to the organisation",
+        "guidance": "Include the organisation's strategy for contributing to sustainable development in the short, medium, and long term.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "Sustainable development is core to our corporate purpose and long-term value creation. Our leadership is fully committed to integrating robust ESG practices into every aspect of our business, ensuring we deliver positive impacts for our stakeholders and the environment."
+    },
+    "GOV_POL_Q1": {
+        "question_id": "b6c7d8e9-f0a1-2345-b6c7-d8e9f0a10001",
+        "framework": "GOV_POL_Q1",
+        "framework_codes": [
+            "GRI",
+            "UNGC",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-23",
+            "UNGC G1 P10",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Policy Commitments",
+        "topic": "Policy Commitments",
+        "question": "Describe the organisation's policy commitments for responsible business conduct",
+        "guidance": "Include: the authoritative intergovernmental instruments referenced; whether commitments cover due diligence, precautionary principle, and respecting human rights; the specific human rights commitment (categories covered, at-risk stakeholders); whether commitments are publicly available; the level at which they were approved; the extent to which they apply to activities and business relationships; how they are communicated to workers and partners.",
+        "answer_type": "text",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "b6c7d8e9-f0a1-2345-b6c7-d8e9f0a10002",
+                "framework": "GOV_POL_Q1_SQ1",
+                "question": "Are the policy commitments publicly available?",
+                "answer_type": "radio",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "question_id": "b6c7d8e9-f0a1-2345-b6c7-d8e9f0a10003",
+                "framework": "GOV_POL_Q1_SQ2",
+                "question": "If publicly available, provide links to the policy commitments",
+                "answer_type": "url",
+                "condition": "Yes"
+            }
+        ],
+        "expected_answer": "Our Code of Conduct and overarching corporate policies explicitly commit to upholding human rights, ensuring fair labor practices, maintaining zero tolerance for corruption, and actively minimizing our environmental footprint across all operations and supply chains."
+    },
+    "GOV_POL_Q1_SQ1": {
+        "question_id": "b6c7d8e9-f0a1-2345-b6c7-d8e9f0a10002",
+        "framework": "GOV_POL_Q1_SQ1",
+        "question": "Are the policy commitments publicly available?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "GOV_POL_Q1_SQ2": {
+        "question_id": "b6c7d8e9-f0a1-2345-b6c7-d8e9f0a10003",
+        "framework": "GOV_POL_Q1_SQ2",
+        "question": "If publicly available, provide links to the policy commitments",
+        "answer_type": "url",
+        "condition": "Yes"
+    },
+    "GOV_POL_Q2": {
+        "question_id": "b6c7d8e9-f0a1-2345-b6c7-d8e9f0a10004",
+        "framework": "GOV_POL_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-24",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Policy Commitments",
+        "topic": "Implementing Commitments",
+        "question": "Describe how each policy commitment for responsible business conduct is embedded throughout the organisation's activities and business relationships",
+        "guidance": "Include: how responsibility to implement commitments is allocated across levels; how commitments are integrated into strategies, operational policies, and procedures; how they are implemented through business relationships; training provided for implementation.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "Policies are embedded through mandatory annual employee training, rigorous supplier due diligence, and integration into performance management systems. Compliance is continuously monitored via internal audits and a robust vendor risk management framework."
+    },
+    "GOV_REM_Q1": {
+        "question_id": "c7d8e9f0-a1b2-3456-c7d8-e9f0a1b20001",
+        "framework": "GOV_REM_Q1",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-25",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Remediation & Concerns",
+        "topic": "Remediation Process",
+        "question": "Describe the organisation's approach to remediation of negative impacts and grievance mechanisms",
+        "guidance": "Include: commitments to provide for or cooperate in remediation; approach to identifying and addressing grievances; other remediation processes; how stakeholders who are intended users of grievance mechanisms are involved in design, review, and operation; how effectiveness is tracked.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "We operate accessible, anonymous grievance channels for all stakeholders. Any reported negative impact triggers a formalized investigation protocol. We are committed to providing timely, fair, and transparent remediation, and we actively adjust our processes to prevent recurrence."
+    },
+    "GOV_REM_Q2": {
+        "question_id": "c7d8e9f0-a1b2-3456-c7d8-e9f0a1b20002",
+        "framework": "GOV_REM_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-26",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Remediation & Concerns",
+        "topic": "Advice & Concerns",
+        "question": "Describe the mechanisms for individuals to seek advice on implementing the organisation's policies for responsible business conduct and to raise concerns about the organisation's conduct",
+        "guidance": "Include both internal mechanisms (e.g. ethics hotlines, ombudspersons) and external mechanisms available to workers, business partners, and other stakeholders.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "Employees and external stakeholders can seek advice or raise concerns via a 24/7 confidential ethics hotline, dedicated compliance officers, or direct escalation to the internal audit department. Retaliation against whistleblowers is strictly prohibited."
+    },
+    "GOV_ETH_Q2": {
+        "question_id": "d8e9f0a1-b2c3-4567-d8e9-f0a1b2c30001",
+        "framework": "GOV_ETH_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-27",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Ethics & Compliance",
+        "topic": "Regulatory Compliance",
+        "question": "Total number of significant instances of non-compliance with laws and regulations during the reporting period",
+        "guidance": "Report separately: instances resulting in fines; instances resulting in non-monetary sanctions. Also report the total monetary value of fines paid.",
+        "answer_type": "number",
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "d8e9f0a1-b2c3-4567-d8e9-f0a1b2c30002",
+                "framework": "GOV_ETH_Q2_SQ1",
+                "question": "Number of significant instances of non-compliance resulting in fines",
+                "answer_type": "number"
+            },
+            {
+                "question_id": "d8e9f0a1-b2c3-4567-d8e9-f0a1b2c30003",
+                "framework": "GOV_ETH_Q2_SQ2",
+                "question": "Number of significant instances of non-compliance resulting in non-monetary sanctions",
+                "answer_type": "number"
+            },
+            {
+                "question_id": "d8e9f0a1-b2c3-4567-d8e9-f0a1b2c30004",
+                "framework": "GOV_ETH_Q2_SQ3",
+                "question": "Total monetary value of fines paid during the reporting period",
+                "answer_type": "number"
+            },
+            {
+                "question_id": "d8e9f0a1-b2c3-4567-d8e9-f0a1b2c30005",
+                "framework": "GOV_ETH_Q2_SQ4",
+                "question": "Describe the significant instances of non-compliance",
+                "answer_type": "text"
+            }
+        ],
+        "range": "0-1000000"
+    },
+    "GOV_ETH_Q2_SQ1": {
+        "question_id": "d8e9f0a1-b2c3-4567-d8e9-f0a1b2c30002",
+        "framework": "GOV_ETH_Q2_SQ1",
+        "question": "Number of significant instances of non-compliance resulting in fines",
+        "answer_type": "number",
+        "range": "0-1000000"
+    },
+    "GOV_ETH_Q2_SQ2": {
+        "question_id": "d8e9f0a1-b2c3-4567-d8e9-f0a1b2c30003",
+        "framework": "GOV_ETH_Q2_SQ2",
+        "question": "Number of significant instances of non-compliance resulting in non-monetary sanctions",
+        "answer_type": "number",
+        "range": "0-1000000"
+    },
+    "GOV_ETH_Q2_SQ3": {
+        "question_id": "d8e9f0a1-b2c3-4567-d8e9-f0a1b2c30004",
+        "framework": "GOV_ETH_Q2_SQ3",
+        "question": "Total monetary value of fines paid during the reporting period",
+        "answer_type": "number",
+        "range": "0-1000000"
+    },
+    "GOV_ETH_Q2_SQ4": {
+        "question_id": "d8e9f0a1-b2c3-4567-d8e9-f0a1b2c30005",
+        "framework": "GOV_ETH_Q2_SQ4",
+        "question": "Describe the significant instances of non-compliance",
+        "answer_type": "text",
+        "expected_answer": "Any significant instances of non-compliance are thoroughly investigated and publicly disclosed in our annual sustainability report, detailing the nature of the breach, the financial or regulatory penalties incurred, and the immediate corrective actions implemented."
+    },
+    "GOV_STE_Q1": {
+        "question_id": "e9f0a1b2-c3d4-5678-e9f0-a1b2c3d40001",
+        "framework": "GOV_STE_Q1",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-28",
+            "SDG 17"
+        ],
+        "category": "Governance",
+        "subcategory": "Stakeholder Engagement",
+        "topic": "Memberships",
+        "question": "List industry associations, other membership associations, and national or international advocacy organisations in which the organisation participates in a significant role",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "We are active members of the UN Global Compact, the World Business Council for Sustainable Development (WBCSD), and several industry-specific regulatory task forces, where we hold board or committee leadership positions to drive sector-wide sustainability standards."
+    },
+    "GOV_STE_Q2": {
+        "question_id": "e9f0a1b2-c3d4-5678-e9f0-a1b2c3d40002",
+        "framework": "GOV_STE_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-29",
+            "SDG 17"
+        ],
+        "category": "Governance",
+        "subcategory": "Stakeholder Engagement",
+        "topic": "Stakeholder Engagement",
+        "question": "Describe the organisation's approach to engaging with stakeholders",
+        "guidance": "Include: categories of stakeholders engaged with and how they are identified; the purpose of the engagement; how the organisation seeks to ensure meaningful engagement.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "We engage stakeholders through a structured, multi-channel approach including annual materiality assessments, regular community town halls, investor roadshows, and ongoing dialogue with NGOs. Feedback is systematically integrated into our strategic planning."
+    },
+    "GOV_STE_Q3": {
+        "question_id": "e9f0a1b2-c3d4-5678-e9f0-a1b2c3d40003",
+        "framework": "GOV_STE_Q3",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-30",
+            "SDG 8"
+        ],
+        "category": "Governance",
+        "subcategory": "Stakeholder Engagement",
+        "topic": "Collective Bargaining",
+        "question": "Percentage of total employees covered by collective bargaining agreements",
+        "guidance": "For employees not covered, describe whether the organisation determines their working conditions based on collective bargaining agreements that cover its other employees or those from other organisations.",
+        "answer_type": "number",
+        "mandatory": false,
+        "range": "0-1000000"
+    },
+    "GOV_RPT_Q1": {
+        "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e50001",
+        "framework": "GOV_RPT_Q1",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-2",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Reporting Practices",
+        "topic": "Reporting Scope",
+        "question": "List all entities included in the organisation's sustainability reporting",
+        "guidance": "If the organisation has audited consolidated financial statements, describe any differences between the entities included in financial reporting and those included in sustainability reporting, and explain the approach used for consolidating information.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "The sustainability report covers all global subsidiaries, joint ventures, and operational facilities where the organization holds majority ownership or exercises significant operational control."
+    },
+    "GOV_RPT_Q2": {
+        "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e50002",
+        "framework": "GOV_RPT_Q2",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-3",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Reporting Practices",
+        "topic": "Reporting Period",
+        "question": "Reporting period start and end dates, publication date, and contact point for questions about the report",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "The reporting period spans the fiscal year from January 1 to December 31. The report is published annually in April. Inquiries can be directed to the Chief Sustainability Officer via the dedicated contact email provided in the report."
+    },
+    "GOV_RPT_Q3": {
+        "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e50003",
+        "framework": "GOV_RPT_Q3",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-4",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Reporting Practices",
+        "topic": "Restatements",
+        "question": "Report any restatements of information made from previous reporting periods",
+        "guidance": "Explain the reasons for restatements and the effect of those restatements on the reported information.",
+        "answer_type": "text",
+        "mandatory": false,
+        "expected_answer": "Any restatements of previously published data due to changes in measurement methodologies, data scope expansions, or error corrections are clearly identified and explained in the methodology section of the current report."
+    },
+    "GOV_RPT_Q4": {
+        "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e50004",
+        "framework": "GOV_RPT_Q4",
+        "framework_codes": [
+            "GRI",
+            "SGX"
+        ],
+        "index": [
+            "GRI 2-5",
+            "SDG 16"
+        ],
+        "category": "Governance",
+        "subcategory": "Reporting Practices",
+        "topic": "External Assurance",
+        "question": "Has the organisation's sustainability reporting been externally assured?",
+        "answer_type": "radio",
+        "options": [
+            "Yes",
+            "No",
+            "In progress"
+        ],
+        "mandatory": false,
+        "sub_questions": [
+            {
+                "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e50005",
+                "framework": "GOV_RPT_Q4_SQ1",
+                "question": "Describe what has been assured, the assurance standard used, the level of assurance obtained, and any limitations of the assurance process",
+                "answer_type": "text",
+                "condition": "Yes"
+            },
+            {
+                "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e50006",
+                "framework": "GOV_RPT_Q4_SQ2",
+                "question": "Describe the relationship between the organisation and the assurance provider (e.g. whether the provider is independent)",
+                "answer_type": "text",
+                "condition": "Yes"
+            },
+            {
+                "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e50007",
+                "framework": "GOV_RPT_Q4_SQ3",
+                "question": "Describe the organisation's policy and practice for seeking external assurance, including whether and how the highest governance body and senior executives are involved",
+                "answer_type": "text"
+            }
+        ]
+    },
+    "GOV_RPT_Q4_SQ1": {
+        "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e50005",
+        "framework": "GOV_RPT_Q4_SQ1",
+        "question": "Describe what has been assured, the assurance standard used, the level of assurance obtained, and any limitations of the assurance process",
+        "answer_type": "text",
+        "condition": "Yes",
+        "expected_answer": "Our Scope 1 and 2 GHG emissions, along with key social metrics, have received limited external assurance in accordance with the ISAE 3000 standard. Limitations are explicitly stated in the independent assurance statement appended to the report."
+    },
+    "GOV_RPT_Q4_SQ2": {
+        "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e50006",
+        "framework": "GOV_RPT_Q4_SQ2",
+        "question": "Describe the relationship between the organisation and the assurance provider (e.g. whether the provider is independent)",
+        "answer_type": "text",
+        "condition": "Yes",
+        "expected_answer": "The assurance provider is an independent, globally recognized auditing firm with no financial or operational ties to the organization, ensuring complete objectivity and adherence to professional independence standards."
+    },
+    "GOV_RPT_Q4_SQ3": {
+        "question_id": "f0a1b2c3-d4e5-6789-f0a1-b2c3d4e50007",
+        "framework": "GOV_RPT_Q4_SQ3",
+        "question": "Describe the organisation's policy and practice for seeking external assurance, including whether and how the highest governance body and senior executives are involved",
+        "answer_type": "text",
+        "expected_answer": "Our policy mandates external assurance for all critical ESG data to ensure credibility. The Board's Audit Committee selects the independent assurance provider, reviews the assurance scope and findings, and formally approves the final statement."
+    },
+    "UNGC_G1_001": {
+        "question_id": "ungc-g1-001-f6a7b8c9-0008-4fab-3cd4-ee0008000008",
+        "framework": "UNGC_G1_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Board & Senior Management Engagement",
+        "topic": "Board Oversight",
+        "question": "Does the board/highest governance body or most senior executive of the company take any of the following actions?",
+        "guidance": "Select all actions that apply. If none apply, select 'None of the above'.",
+        "answer_type": "multi_select",
+        "options": [
+            "Issue an annual statement about the relevance of sustainable development",
+            "Issue an annual statement addressing impacts on people and the environment",
+            "Issue an annual statement highlighting zero tolerance for corruption",
+            "Sign off on organizational sustainability targets",
+            "Supervise ESG reporting",
+            "Regularly review potential risks related to the business model",
+            "None of the above"
+        ],
+        "mandatory": true,
+        "sub_questions": [
+            {
+                "question_id": "ungc-g1-001-sq1-f6a7b8c9-0009-4fab-3cd4-ee0009000009",
+                "framework": "UNGC_G1_SQ_001",
+                "question": "Provide additional information on board/senior management engagement with sustainability",
+                "answer_type": "text"
+            }
+        ]
+    },
+    "UNGC_G1_SQ_001": {
+        "question_id": "ungc-g1-001-sq1-f6a7b8c9-0009-4fab-3cd4-ee0009000009",
+        "framework": "UNGC_G1_SQ_001",
+        "question": "Provide additional information on board/senior management engagement with sustainability",
+        "answer_type": "text",
+        "expected_answer": "Senior management holds bi-weekly sustainability reviews, and ESG performance is a standing agenda item at all quarterly Board meetings, ensuring continuous top-level engagement and strategic alignment."
+    },
+    "UNGC_G2_001": {
+        "question_id": "ungc-g2-001-a7b8c9d0-0010-4abc-4de5-ff0010000010",
+        "framework": "UNGC_G2_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Policies and Responsibilities",
+        "topic": "Code of Conduct",
+        "question": "Does the company have a code of conduct in place regarding each of the following sustainability topics?",
+        "guidance": "Select the most advanced option for each topic.",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "sustainability_topic",
+                "label": "Sustainability Topic",
+                "type": "text"
+            },
+            {
+                "header": "code_of_conduct_scope",
+                "label": "Code of Conduct Scope",
+                "type": "select",
+                "options": [
+                    "No, this is not a current priority",
+                    "No, but we plan to within the next two years",
+                    "Yes \u2014 focused on employees",
+                    "Yes \u2014 focused on employees and suppliers",
+                    "Yes \u2014 focused on employees and the value chain"
+                ]
+            }
+        ],
+        "mandatory": true
+    },
+    "UNGC_G3_001": {
+        "question_id": "ungc-g3-001-b8c9d0e1-0011-4bcd-5ef6-aa0011000011",
+        "framework": "UNGC_G3_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Policies and Responsibilities",
+        "topic": "Responsible Person / Group",
+        "question": "Has the company appointed an individual or group responsible for each of the following sustainability topics?",
+        "guidance": "Select the most advanced level of influence for each topic.",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "sustainability_topic",
+                "label": "Sustainability Topic",
+                "type": "text"
+            },
+            {
+                "header": "responsible_individual_level",
+                "label": "Level of Influence of Responsible Individual/Group",
+                "type": "select",
+                "options": [
+                    "No one specifically responsible",
+                    "Yes \u2014 limited influence on outcomes",
+                    "Yes \u2014 moderate influence on outcomes",
+                    "Yes \u2014 direct influence on some outcomes",
+                    "Yes \u2014 direct influence at highest levels"
+                ]
+            }
+        ],
+        "mandatory": true
+    },
+    "UNGC_G3_1_001": {
+        "question_id": "ungc-g3-1-001-c9d0e1f2-0012-4cde-6fa7-bb0012000012",
+        "framework": "UNGC_G3_1_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Policies and Responsibilities",
+        "topic": "Formal Governance Structure",
+        "question": "If responsible individuals/groups are appointed (G3), does the company also have formal governance structures providing strategic oversight?",
+        "guidance": "Only complete where G3 = Yes (any level of influence).",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "sustainability_topic",
+                "label": "Sustainability Topic",
+                "type": "text"
+            },
+            {
+                "header": "formal_structure_level",
+                "label": "Formal Governance Structure Level",
+                "type": "select",
+                "options": [
+                    "No formal structure",
+                    "Yes \u2014 limited influence",
+                    "Yes \u2014 moderate influence",
+                    "Yes \u2014 direct influence on some outcomes",
+                    "Yes \u2014 direct influence at highest level of the company"
+                ]
+            }
+        ],
+        "mandatory": false
+    },
+    "UNGC_G4_001": {
+        "question_id": "ungc-g4-001-d0e1f2a3-0013-4def-7ab8-cc0013000013",
+        "framework": "UNGC_G4_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Prevention",
+        "topic": "Risk Identification, Assessment & Mitigation",
+        "question": "Does the company have a process to identify, assess and mitigate risks related to the following sustainability topics?",
+        "guidance": "Select the most advanced option reflecting how broadly the risk process engages stakeholders.",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "sustainability_topic",
+                "label": "Sustainability Topic (Risk)",
+                "type": "text"
+            },
+            {
+                "header": "risk_process_scope",
+                "label": "Risk Identification, Assessment & Mitigation Process Scope",
+                "type": "select",
+                "options": [
+                    "No, not a current priority",
+                    "No, but we plan to within two years",
+                    "Yes \u2014 conducted by a designated individual/group",
+                    "Yes \u2014 engaging employees across the company",
+                    "Yes \u2014 engaging employees and business partners",
+                    "Yes \u2014 engaging employees, business partners and external stakeholders"
+                ]
+            }
+        ],
+        "mandatory": true
+    },
+    "UNGC_G4_1_001": {
+        "question_id": "ungc-g4-1-001-e1f2a3b4-0014-4efa-8bc9-dd0014000014",
+        "framework": "UNGC_G4_1_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Prevention",
+        "topic": "High-Risk Business Partners Identified",
+        "question": "As part of the risk process (G4), has the company identified business partners/external stakeholders where the risk may be particularly severe?",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "sustainability_topic",
+                "label": "Sustainability Topic",
+                "type": "text"
+            },
+            {
+                "header": "high_risk_partners_identified",
+                "label": "High-Risk Business Partners Identified?",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "mandatory": false
+    },
+    "UNGC_G5_001": {
+        "question_id": "ungc-g5-001-f2a3b4c5-0015-4fab-9cd0-ee0015000015",
+        "framework": "UNGC_G5_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Prevention",
+        "topic": "Due Diligence Process",
+        "question": "Does the company have a due diligence process to identify, prevent, mitigate and account for actual and potential negative sustainability impacts?",
+        "guidance": "Select the most advanced scope of due diligence for each topic.",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "sustainability_topic",
+                "label": "Sustainability Topic (Due Diligence)",
+                "type": "text"
+            },
+            {
+                "header": "due_diligence_scope",
+                "label": "Due Diligence Process Scope",
+                "type": "select",
+                "options": [
+                    "No, not a current priority",
+                    "No, but we plan to within two years",
+                    "Yes \u2014 related to own operations",
+                    "Yes \u2014 related to own operations and suppliers",
+                    "Yes \u2014 related to own operations and the value chain"
+                ]
+            }
+        ],
+        "mandatory": true
+    },
+    "UNGC_G5_1_001": {
+        "question_id": "ungc-g5-1-001-a3b4c5d6-0016-4abc-0de1-ff0016000016",
+        "framework": "UNGC_G5_1_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Prevention",
+        "topic": "High-Risk Suppliers Identified in Due Diligence",
+        "question": "During the due diligence process (G5), has the company identified suppliers/business relationships where the risk of adverse impacts may be particularly severe?",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "sustainability_topic",
+                "label": "Sustainability Topic",
+                "type": "text"
+            },
+            {
+                "header": "high_risk_suppliers_identified",
+                "label": "High-Risk Suppliers/Relationships Identified in Due Diligence?",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "mandatory": false
+    },
+    "UNGC_G6_001": {
+        "question_id": "ungc-g6-001-b4c5d6e7-0017-4bcd-1ef2-aa0017000017",
+        "framework": "UNGC_G6_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Concerns & Grievance Mechanisms",
+        "topic": "Workforce Grievance Mechanism",
+        "question": "Does the company have a process through which members of the workforce can raise concerns about the company's conduct on sustainability topics?",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "sustainability_topic",
+                "label": "Sustainability Topic",
+                "type": "text"
+            },
+            {
+                "header": "grievance_process_type",
+                "label": "Grievance Process Type",
+                "type": "select",
+                "options": [
+                    "No, not a current priority",
+                    "No, but we plan to within two years",
+                    "Yes \u2014 informal process (supervisors, others)",
+                    "Yes \u2014 formal process"
+                ]
+            }
+        ],
+        "mandatory": true
+    },
+    "UNGC_G6_1_001": {
+        "question_id": "ungc-g6-1-001-c5d6e7f8-0018-4cde-2fa3-bb0018000018",
+        "framework": "UNGC_G6_1_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Concerns & Grievance Mechanisms",
+        "topic": "Grievance Mechanism Details",
+        "question": "Provide additional detail about the workforce grievance/speak-up process(es)",
+        "answer_type": "multi_select",
+        "options": [
+            "Communicated to all employees in local languages",
+            "Available to non-employees (suppliers, consumers, communities)",
+            "Confidential (whistleblowing)",
+            "Whistleblower protection in place",
+            "Can raise concerns about suppliers or other business relationships",
+            "Other"
+        ],
+        "mandatory": false
+    },
+    "UNGC_G7_001": {
+        "question_id": "ungc-g7-001-d6e7f8a9-0019-4def-3ab4-cc0019000019",
+        "framework": "UNGC_G7_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Tracking Action Effectiveness",
+        "topic": "Effectiveness Tracking",
+        "question": "How does the company track the effectiveness of its actions to manage potential and actual impacts on sustainability topics?",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "sustainability_topic",
+                "label": "Sustainability Topic",
+                "type": "text"
+            },
+            {
+                "header": "tracking_no_systematic",
+                "label": "No Actions Systematically Tracked",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "header": "tracking_stakeholder_feedback",
+                "label": "Gathers and Assesses Stakeholder Feedback",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "header": "tracking_goals_kpis",
+                "label": "Sets and Regularly Tracks Goals/Targets/KPIs",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "header": "tracking_monitoring_evaluation",
+                "label": "Conducts Monitoring and Evaluation",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "header": "tracking_lessons_learned",
+                "label": "Incorporates Lessons Learned into Policies",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "mandatory": true
+    },
+    "UNGC_G8_001": {
+        "question_id": "ungc-g8-001-e7f8a9b0-0020-4efa-4bc5-dd0020000020",
+        "framework": "UNGC_G8_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Executive Pay",
+        "topic": "Executive Pay Linked to Sustainability",
+        "question": "Is executive pay linked to performance on one or more of the following sustainability topics?",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "sustainability_topic",
+                "label": "Sustainability Topic",
+                "type": "text"
+            },
+            {
+                "header": "exec_pay_linked",
+                "label": "Executive Pay Linked to This Topic?",
+                "type": "select",
+                "options": [
+                    "No, not a current priority",
+                    "No, but we plan to within two years",
+                    "Yes"
+                ]
+            }
+        ],
+        "mandatory": true
+    },
+    "UNGC_G9_001": {
+        "question_id": "ungc-g9-001-f8a9b0c1-0021-4fab-5cd6-ee0021000021",
+        "framework": "UNGC_G9_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P1",
+            "P2",
+            "P6"
+        ],
+        "category": "Governance",
+        "subcategory": "Leadership Composition",
+        "topic": "Board Composition Details",
+        "question": "Provide details regarding the company's board/highest governance body",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "metric",
+                "label": "Board Composition Metric",
+                "type": "text"
+            },
+            {
+                "header": "value",
+                "label": "Value (number or %)",
+                "type": "number"
+            },
+            {
+                "header": "not_applicable",
+                "label": "Not Applicable?",
+                "type": "select",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "mandatory": true
+    },
+    "UNGC_G10_001": {
+        "question_id": "ungc-g10-001-a9b0c1d2-0022-4abc-6de7-ff0022000022",
+        "framework": "UNGC_G10_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P6"
+        ],
+        "category": "Governance",
+        "subcategory": "Leadership Composition",
+        "topic": "Women in Management",
+        "question": "Within the reporting period, what was the percentage of women in managerial positions?",
+        "answer_type": "number",
+        "mandatory": true,
+        "range": "0-1000000"
+    },
+    "UNGC_G11_001": {
+        "question_id": "ungc-g11-001-b0c1d2e3-0023-4bcd-7ef8-aa0023000023",
+        "framework": "UNGC_G11_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P6"
+        ],
+        "category": "Governance",
+        "subcategory": "Leadership Composition",
+        "topic": "C-Suite Gender Representation",
+        "question": "What is the gender representation of the company's C-suite or equivalent executive leadership positions?",
+        "answer_type": "table_general",
+        "columns": [
+            {
+                "header": "csuite_role",
+                "label": "C-Suite Role",
+                "type": "select",
+                "options": [
+                    "Chief Executive Officer",
+                    "Chief Financial Officer",
+                    "Chief Procurement Officer",
+                    "Chief Technology Officer",
+                    "Chief Marketing Officer",
+                    "Chief Operations Officer",
+                    "Chief Sustainability Officer",
+                    "Chief Legal Officer / General Counsel",
+                    "Chief Human Resources Officer",
+                    "Chief Compliance Officer",
+                    "Other"
+                ]
+            },
+            {
+                "header": "gender_representation",
+                "label": "Gender Representation",
+                "type": "select",
+                "options": [
+                    "Women",
+                    "Men",
+                    "Other (e.g. non-binary)",
+                    "Not applicable",
+                    "Choose not to disclose"
+                ]
+            }
+        ],
+        "mandatory": true
+    },
+    "UNGC_G12_001": {
+        "question_id": "ungc-g12-001-c1d2e3f4-0024-4cde-8fa9-bb0024000024",
+        "framework": "UNGC_G12_001",
+        "framework_codes": [
+            "UNGC"
+        ],
+        "index": [
+            "P7",
+            "P8",
+            "P9",
+            "P10"
+        ],
+        "category": "Governance",
+        "subcategory": "Sustainable Finance",
+        "topic": "Sustainability in Finance & Investment",
+        "question": "Does the company consider sustainability in its financing and investment strategies?",
+        "answer_type": "radio",
+        "options": [
+            "Yes \u2014 informal consideration in financial planning and decision-making",
+            "Yes \u2014 structured sustainability-informed investment/financing strategy, no specific targets",
+            "Yes \u2014 structured SDG-aligned investment or SDG-linked financing with specific targets",
+            "No, this is not a current priority",
+            "No, but we plan to within the next two years",
+            "Choose not to disclose"
+        ],
+        "mandatory": true,
+        "sub_questions": [
+            {
+                "question_id": "ungc-g12-001-sq1-c1d2e3f4-0025-4cde-8fa9-bb0025000025",
+                "framework": "UNGC_G12_SQ_001",
+                "question": "Provide additional information on sustainability in financing and investment strategies",
+                "answer_type": "text",
+                "condition": "Yes \u2014 structured sustainability-informed investment/financing strategy, no specific targets"
+            }
+        ]
+    },
+    "UNGC_G12_SQ_001": {
+        "question_id": "ungc-g12-001-sq1-c1d2e3f4-0025-4cde-8fa9-bb0025000025",
+        "framework": "UNGC_G12_SQ_001",
+        "question": "Provide additional information on sustainability in financing and investment strategies",
+        "answer_type": "text",
+        "condition": "Yes \u2014 structured sustainability-informed investment/financing strategy, no specific targets",
+        "expected_answer": "We actively integrate ESG criteria into our capital allocation and investment decisions. This includes issuing green bonds, utilizing sustainability-linked loans, and applying rigorous environmental and social screens to all potential acquisitions."
+    }
+}

@@ -19,7 +19,7 @@ Evaluator=ESGAnswerEval()
 with open("api.json", "r") as file:
     data = json.load(file)
     api_data=data["responses"]
-with open("GRI_Environment_Scoring.json", "r") as file:
+with open("GRI_Governance_Scoring.json", "r") as file:
     scoring=json.load(file)
 
 
